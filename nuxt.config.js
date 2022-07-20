@@ -13,6 +13,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: ["~/static/scss/style.scss"],
   /*
   ** Customize the progress bar color
   */
@@ -21,6 +22,15 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    extractCSS: process.env.NODE_ENV === "production" ? true : false,
+    postcss: {
+      plugins: {
+        autoprefixer: {
+          grid: process.env.NODE_ENV === "production" ? true : false,
+          flexbox: process.env.NODE_ENV === "production" ? true : false,
+        },
+      },
+    },
     /*
     ** Run ESLint on save
     */
@@ -34,6 +44,9 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  buildModules: [
+    "@nuxt/postcss8",
+  ]
 }
 
