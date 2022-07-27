@@ -20,7 +20,7 @@
 
 .wrap {
   position: absolute;
-  width: 1480px;
+  width: 100%;
   height: 2685px;
   background-color: #ffffff;
   overflow: hidden;
@@ -332,7 +332,7 @@
 
         .main_img {
           position: absolute;
-          width: 1480px;
+          width: 100%;
           height: 930px;
           left: 425px;
           top: 0px;
@@ -341,7 +341,7 @@
 
         .content {
           position: absolute;
-          width: 1294px;
+          width: 100%;
           height: 391px;
           left: 0px;
           top: 281px;
@@ -361,85 +361,6 @@
             font-weight: bold;
             font-size: 25px;
             color: #ffffff;
-          }
-
-          .Unicorn_Ranch {
-            left: 508px;
-            top: 34px;
-            position: absolute;
-            overflow: visible;
-            width: 601px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "Montserrat-Bold";
-            font-weight: bold;
-            font-size: 80px;
-            color: #ffffff;
-            letter-spacing: -0.2px;
-          }
-
-          .contents {
-            opacity: 0.8;
-            left: 575px;
-            top: 156px;
-            position: absolute;
-            overflow: visible;
-            width: 720px;
-            line-height: 28px;
-            margin-top: -4px;
-            text-align: left;
-            font-family: "Pretendard-Regular";
-            font-weight: normal;
-            font-size: 20px;
-            color: #ffffff;
-          }
-
-          .detail {
-            position: absolute;
-            width: 151.5px;
-            height: 59px;
-            left: 575px;
-            top: 332px;
-            overflow: visible;
-
-            .details {
-              opacity: 0.8;
-              left: 0px;
-              top: 19px;
-              position: absolute;
-              overflow: visible;
-              width: 85px;
-              white-space: nowrap;
-              line-height: 20px;
-              margin-top: -2px;
-              text-align: left;
-              font-family: "NotoSansKR-Bold";
-              font-weight: bold;
-              font-size: 16px;
-              transition: 0.3s;
-              color: #ffffff;
-            }
-
-            .button {
-              overflow: visible;
-              position: absolute;
-              width: 151px;
-              height: 60px;
-              left: 0px;
-              top: 0px;
-              transition: 0.3s;
-              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(85.5 31)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-            }
-
-            &:hover > {
-              .button {
-                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(95.5 31)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-              }
-
-              .details {
-                color: #3cc1c6;
-              }
-            }
           }
         }
       }
@@ -515,388 +436,6 @@
           left: 0px;
           top: 0px;
           overflow: visible;
-        }
-      }
-
-      .main_section2_content {
-        position: absolute;
-        width: 454px;
-        height: 238px;
-        left: 513px;
-        top: 80px;
-        overflow: visible;
-
-        .content {
-          left: 0px;
-          top: 108px;
-          position: absolute;
-          overflow: visible;
-          width: 455px;
-          white-space: nowrap;
-          text-align: center;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 25px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .About_Unicorn_Ranch {
-          left: 78px;
-          top: 0px;
-          position: absolute;
-          overflow: visible;
-          width: 299px;
-          white-space: nowrap;
-          text-align: center;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 40px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .text1 {
-          position: absolute;
-          width: 174px;
-          height: 57px;
-          left: 46px;
-          top: 181px;
-          overflow: visible;
-
-          .text_l {
-            left: 25px;
-            top: 19px;
-            position: absolute;
-            overflow: visible;
-            width: 64px;
-            white-space: nowrap;
-            text-align: left;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 16px;
-            color: #ffffff;
-            letter-spacing: -0.25px;
-            transition: 0.3s;
-          }
-
-          &:hover > .text_l {
-            color: #3cc1c6;
-          }
-
-          .button {
-            position: absolute;
-            overflow: visible;
-            width: 174px;
-            height: 57px;
-            left: 0px;
-            top: 0px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .button {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-        }
-
-        .text2 {
-          position: absolute;
-          width: 174px;
-          height: 57px;
-          left: 230px;
-          top: 181px;
-          overflow: visible;
-
-          .text_r {
-            left: 25px;
-            top: 19px;
-            position: absolute;
-            overflow: visible;
-            width: 87px;
-            white-space: nowrap;
-            text-align: left;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 16px;
-            color: #ffffff;
-            letter-spacing: -0.25px;
-            transition: 0.3s;
-          }
-
-          .button {
-            position: absolute;
-            overflow: visible;
-            width: 174px;
-            height: 57px;
-            left: 0px;
-            top: 0px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .button {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-        }
-      }
-
-      .main_section2_left {
-        position: absolute;
-        width: 580px;
-        height: 350px;
-        left: 150px;
-        top: 398px;
-        overflow: visible;
-
-        .main2_left {
-          position: absolute;
-          width: 580px;
-          height: 350px;
-          left: 0px;
-          top: 0px;
-          overflow: visible;
-        }
-
-        .main2_left_1 {
-          position: absolute;
-          width: 149.703px;
-          height: 34px;
-          left: 46px;
-          top: 50px;
-          overflow: visible;
-
-          .main2_left_1_img {
-            position: absolute;
-            width: 149.703px;
-            height: 34px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-
-            .img {
-              position: absolute;
-              width: 149.703px;
-              height: 34px;
-              left: 0px;
-              top: 0px;
-              overflow: visible;
-            }
-          }
-        }
-
-        .main2_left_2 {
-          left: 46px;
-          top: 114px;
-          position: absolute;
-          overflow: visible;
-          width: 66px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 15px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_left_3 {
-          left: 46px;
-          top: 135px;
-          position: absolute;
-          overflow: visible;
-          width: 378px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 30px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_left_4 {
-          left: 46px;
-          top: 197px;
-          position: absolute;
-          overflow: visible;
-          width: 383px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 18px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_left_5 {
-          position: absolute;
-          width: 174px;
-          height: 57px;
-          left: 46px;
-          top: 247px;
-          overflow: visible;
-
-          .detail {
-            left: 25px;
-            top: 19px;
-            position: absolute;
-            overflow: visible;
-            width: 79px;
-            white-space: nowrap;
-            text-align: left;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 16px;
-            color: #ffffff;
-            letter-spacing: -0.25px;
-            transition: 0.3s;
-          }
-
-          &:hover > .detail {
-            color: #3cc1c6;
-          }
-
-          .button {
-            position: absolute;
-            overflow: visible;
-            width: 174px;
-            height: 57px;
-            left: 0px;
-            top: 0px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .button {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-        }
-      }
-
-      .main_section2_right {
-        position: absolute;
-        width: 580px;
-        height: 350px;
-        left: 750px;
-        top: 398px;
-        overflow: visible;
-
-        .main2_right {
-          position: absolute;
-          width: 580px;
-          height: 350px;
-          left: 0px;
-          top: 0px;
-          overflow: visible;
-        }
-
-        .main2_right_1 {
-          position: absolute;
-          width: 149.444px;
-          height: 34px;
-          left: 45px;
-          top: 50px;
-          overflow: visible;
-
-          .img {
-            position: absolute;
-            width: 149.444px;
-            height: 34px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-          }
-        }
-
-        .main2_right_2 {
-          left: 45px;
-          top: 114px;
-          position: absolute;
-          overflow: visible;
-          width: 66px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 15px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_right_3 {
-          left: 45px;
-          top: 135px;
-          position: absolute;
-          overflow: visible;
-          width: 366px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 30px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_right_4 {
-          left: 45px;
-          top: 197px;
-          position: absolute;
-          overflow: visible;
-          width: 432px;
-          white-space: nowrap;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 18px;
-          color: #ffffff;
-          letter-spacing: -0.25px;
-        }
-
-        .main2_right_5 {
-          position: absolute;
-          width: 174px;
-          height: 57px;
-          left: 45px;
-          top: 247px;
-          overflow: visible;
-
-          .button {
-            position: absolute;
-            overflow: visible;
-            width: 174px;
-            height: 57px;
-            left: 0px;
-            top: 0px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .button {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-          }
-
-          .detail {
-            left: 25px;
-            top: 19px;
-            position: absolute;
-            overflow: visible;
-            width: 79px;
-            white-space: nowrap;
-            text-align: left;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 16px;
-            color: #ffffff;
-            letter-spacing: -0.25px;
-            transition: 0.3s;
-          }
-
-          &:hover > .detail {
-            color: #3cc1c6;
-          }
         }
       }
     }
@@ -1654,6 +1193,1056 @@
 
     .select_box:hover + .select_box2 {
       display: block;
+    }
+  }
+}
+@media (max-width: 10000px) {
+  .Unicorn_Ranch {
+    left: 508px;
+    top: 34px;
+    position: absolute;
+    overflow: visible;
+    width: 601px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffffff;
+    letter-spacing: -0.2px;
+  }
+  .contents {
+    opacity: 0.8;
+    left: 575px;
+    top: 156px;
+    position: absolute;
+    overflow: visible;
+    width: 720px;
+    line-height: 28px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+  }
+  .detail {
+    position: absolute;
+    width: 151.5px;
+    height: 59px;
+    left: 575px;
+    top: 332px;
+    overflow: visible;
+
+    .details {
+      opacity: 0.8;
+      left: 0px;
+      top: 19px;
+      position: absolute;
+      overflow: visible;
+      width: 85px;
+      white-space: nowrap;
+      line-height: 20px;
+      margin-top: -2px;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+      color: #ffffff;
+    }
+
+    .button {
+      overflow: visible;
+      position: absolute;
+      width: 151px;
+      height: 60px;
+      left: 0px;
+      top: 0px;
+      transition: 0.3s;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(85.5 31)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+    }
+
+    &:hover > {
+      .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(95.5 31)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      .details {
+        color: #3cc1c6;
+      }
+    }
+  }
+  .main_section2_content {
+    position: absolute;
+    width: 454px;
+    height: 238px;
+    left: 513px;
+    top: 80px;
+    overflow: visible;
+
+    .content {
+      left: 0px;
+      top: 108px;
+      position: absolute;
+      overflow: visible;
+      width: 455px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 25px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .About_Unicorn_Ranch {
+      left: 78px;
+      top: 0px;
+      position: absolute;
+      overflow: visible;
+      width: 299px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 40px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .text1 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 181px;
+      overflow: visible;
+
+      .text_l {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 64px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .text_l {
+        color: #3cc1c6;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+
+    .text2 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 230px;
+      top: 181px;
+      overflow: visible;
+
+      .text_r {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 87px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .main_section2_left {
+    position: absolute;
+    width: 580px;
+    height: 350px;
+    left: 150px;
+    top: 398px;
+    overflow: visible;
+
+    .main2_left {
+      position: absolute;
+      width: 580px;
+      height: 350px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    .main2_left_1 {
+      position: absolute;
+      width: 149.703px;
+      height: 34px;
+      left: 46px;
+      top: 50px;
+      overflow: visible;
+
+      .main2_left_1_img {
+        position: absolute;
+        width: 149.703px;
+        height: 34px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+
+        .img {
+          position: absolute;
+          width: 149.703px;
+          height: 34px;
+          left: 0px;
+          top: 0px;
+          overflow: visible;
+        }
+      }
+    }
+
+    .main2_left_2 {
+      left: 46px;
+      top: 114px;
+      position: absolute;
+      overflow: visible;
+      width: 66px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_3 {
+      left: 46px;
+      top: 135px;
+      position: absolute;
+      overflow: visible;
+      width: 378px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_4 {
+      left: 46px;
+      top: 197px;
+      position: absolute;
+      overflow: visible;
+      width: 383px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_5 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 247px;
+      overflow: visible;
+
+      .detail {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 79px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .detail {
+        color: #3cc1c6;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .main_section2_right {
+    position: absolute;
+    width: 580px;
+    height: 350px;
+    left: 750px;
+    top: 398px;
+    overflow: visible;
+
+    .main2_right {
+      position: absolute;
+      width: 580px;
+      height: 350px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    .main2_right_1 {
+      position: absolute;
+      width: 149.444px;
+      height: 34px;
+      left: 45px;
+      top: 50px;
+      overflow: visible;
+
+      .img {
+        position: absolute;
+        width: 149.444px;
+        height: 34px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+      }
+    }
+
+    .main2_right_2 {
+      left: 45px;
+      top: 114px;
+      position: absolute;
+      overflow: visible;
+      width: 66px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_3 {
+      left: 45px;
+      top: 135px;
+      position: absolute;
+      overflow: visible;
+      width: 366px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_4 {
+      left: 45px;
+      top: 197px;
+      position: absolute;
+      overflow: visible;
+      width: 432px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_5 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 45px;
+      top: 247px;
+      overflow: visible;
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      .detail {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 79px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .detail {
+        color: #3cc1c6;
+      }
+    }
+  }
+}
+
+@media (max-width: 634px) {
+  .Unicorn_Ranch {
+    left: 395px;
+    top: 60px;
+    position: absolute;
+    overflow: visible;
+    width: 601px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: -0.2px;
+  }
+  .contents {
+    opacity: 0.8;
+    left: 575px;
+    top: 156px;
+    position: absolute;
+    overflow: visible;
+    width: 360px;
+    line-height: 28px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+  }
+  .detail {
+    position: absolute;
+    width: 151.5px;
+    height: 59px;
+    left: 575px;
+    top: 500px;
+    overflow: visible;
+
+    .details {
+      opacity: 0.8;
+      left: 0px;
+      top: 19px;
+      position: absolute;
+      overflow: visible;
+      width: 85px;
+      white-space: nowrap;
+      line-height: 20px;
+      margin-top: -2px;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+      color: #ffffff;
+    }
+
+    .button {
+      overflow: visible;
+      position: absolute;
+      width: 151px;
+      height: 60px;
+      left: 0px;
+      top: 0px;
+      transition: 0.3s;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%23fff' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(85.5 31)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+    }
+
+    &:hover > {
+      .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='151' height='60' viewBox='0 0 151 60'%3E%3Cline id='선_18' data-name='선 18' x2='150' transform='translate(0.5 0.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cline id='선_19' data-name='선 19' x2='150' transform='translate(0.5 59.5)' fill='none' stroke='%233cc1c6' stroke-linecap='square' stroke-width='1'/%3E%3Cpath id='합치기_3' data-name='합치기 3' d='M50,0,41,6ZM24,0h0Z' transform='translate(95.5 31)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      .details {
+        color: #3cc1c6;
+      }
+    }
+  }
+  .main_section2_content {
+    position: absolute;
+    width: 454px;
+    height: 238px;
+    left: 100px;
+    top: 50px;
+    overflow: visible;
+
+    .content {
+      left: 0px;
+      top: 54px;
+      position: absolute;
+      overflow: visible;
+      width: 455px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .About_Unicorn_Ranch {
+      left: 78px;
+      top: -20px;
+      position: absolute;
+      overflow: visible;
+      width: 299px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 25px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .text1 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 100px;
+      overflow: visible;
+
+      .text_l {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 64px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .text_l {
+        color: #3cc1c6;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+
+    .text2 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 230px;
+      top: 100px;
+      overflow: visible;
+
+      .text_r {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 87px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(104 28.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(114 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .main_section2_left {
+    position: absolute;
+    width: 580px;
+    height: 350px;
+    left: 150px;
+    top: 398px;
+    overflow: visible;
+
+    .main2_left {
+      position: absolute;
+      width: 580px;
+      height: 350px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    .main2_left_1 {
+      position: absolute;
+      width: 149.703px;
+      height: 34px;
+      left: 46px;
+      top: 50px;
+      overflow: visible;
+
+      .main2_left_1_img {
+        position: absolute;
+        width: 149.703px;
+        height: 34px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+
+        .img {
+          position: absolute;
+          width: 149.703px;
+          height: 34px;
+          left: 0px;
+          top: 0px;
+          overflow: visible;
+        }
+      }
+    }
+
+    .main2_left_2 {
+      left: 46px;
+      top: 114px;
+      position: absolute;
+      overflow: visible;
+      width: 66px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_3 {
+      left: 46px;
+      top: 135px;
+      position: absolute;
+      overflow: visible;
+      width: 378px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_4 {
+      left: 46px;
+      top: 197px;
+      position: absolute;
+      overflow: visible;
+      width: 383px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_5 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 247px;
+      overflow: visible;
+
+      .detail {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 79px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .detail {
+        color: #3cc1c6;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .main_section2_left {
+    position: absolute;
+    width: 580px;
+    height: 250px;
+    left: 30px;
+    top: 250px;
+    overflow: visible;
+
+    .main2_left {
+      position: absolute;
+      width: 580px;
+      height: 250px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    .main2_left_1 {
+      position: absolute;
+      width: 149.703px;
+      height: 34px;
+      left: 46px;
+      top: 60px;
+      overflow: visible;
+
+      .main2_left_1_img {
+        position: absolute;
+        width: 149.703px;
+        height: 34px;
+        left: 0px;
+        top: -40px;
+        overflow: visible;
+
+        .img {
+          position: absolute;
+          width: 110px;
+          height: 25px;
+          left: 0px;
+          top: 0px;
+          overflow: visible;
+        }
+      }
+    }
+
+    .main2_left_2 {
+      left: 46px;
+      top: 60px;
+      position: absolute;
+      overflow: visible;
+      width: 66px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_3 {
+      left: 46px;
+      top: 80px;
+      position: absolute;
+      overflow: visible;
+      width: 378px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_4 {
+      left: 46px;
+      top: 130px;
+      position: absolute;
+      overflow: visible;
+      width: 383px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_left_5 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 177px;
+      overflow: visible;
+
+      .detail {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 79px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .detail {
+        color: #3cc1c6;
+      }
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  .main_section2_right {
+    position: absolute;
+    width: 580px;
+    height: 250px;
+    left: 30px;
+    top: 540px;
+    overflow: visible;
+
+    .main2_right {
+      position: absolute;
+      width: 580px;
+      height: 250px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    .main2_right_1 {
+      position: absolute;
+      width: 149.444px;
+      height: 34px;
+      left: 46px;
+      top: 20px;
+      overflow: visible;
+
+      .img {
+        position: absolute;
+        width: 110px;
+        height: 25px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+      }
+    }
+
+    .main2_right_2 {
+      left: 46px;
+      top: 60px;
+      position: absolute;
+      overflow: visible;
+      width: 66px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_3 {
+      left: 46px;
+      top: 80px;
+      position: absolute;
+      overflow: visible;
+      width: 366px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_4 {
+      left: 46px;
+      top: 130px;
+      position: absolute;
+      overflow: visible;
+      width: 432px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: "NotoSansKR-Bold";
+      font-weight: bold;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: -0.25px;
+    }
+
+    .main2_right_5 {
+      position: absolute;
+      width: 174px;
+      height: 57px;
+      left: 46px;
+      top: 177px;
+      overflow: visible;
+
+      .button {
+        position: absolute;
+        overflow: visible;
+        width: 174px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
+      }
+
+      .detail {
+        left: 25px;
+        top: 19px;
+        position: absolute;
+        overflow: visible;
+        width: 79px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.25px;
+        transition: 0.3s;
+      }
+
+      &:hover > .detail {
+        color: #3cc1c6;
+      }
     }
   }
 }
