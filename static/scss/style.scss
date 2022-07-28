@@ -52,179 +52,6 @@
       }
     }
 
-    nav {
-      position: absolute;
-      width: 498.5px;
-      height: 40.5px;
-      left: 340.5px;
-      top: 0px;
-      overflow: visible;
-
-      .lnb1 {
-        position: absolute;
-        width: 75px;
-        height: 40.5px;
-        left: 0px;
-        top: 0px;
-        overflow: visible;
-
-        .lnb1_txt {
-          left: 0.5px;
-          top: 1px;
-          position: absolute;
-          overflow: visible;
-          width: 81px;
-          white-space: nowrap;
-          line-height: 28px;
-          margin-top: -4px;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 20px;
-          color: #ffffff;
-
-          &:hover + .under_bar1 {
-            opacity: 1;
-          }
-        }
-
-        .under_bar1 {
-          overflow: visible;
-          position: absolute;
-          width: 75px;
-          height: 3px;
-          left: 0px;
-          top: 40.5px;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
-          transition: all 0.3s;
-          opacity: 0;
-        }
-      }
-
-      .lnb2 {
-        position: absolute;
-        width: 55.5px;
-        height: 40.5px;
-        left: 144.5px;
-        top: 0px;
-        overflow: visible;
-
-        .lnb2_txt {
-          left: 0px;
-          top: 1px;
-          position: absolute;
-          overflow: visible;
-          width: 61px;
-          white-space: nowrap;
-          line-height: 28px;
-          margin-top: -4px;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 20px;
-          color: #ffffff;
-
-          &:hover + .under_bar2 {
-            opacity: 1;
-          }
-        }
-
-        .under_bar2 {
-          overflow: visible;
-          position: absolute;
-          width: 55.5px;
-          height: 3px;
-          left: 0px;
-          top: 40.5px;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55.5' height='3' viewBox='0 0 55.5 3'%3E%3Cline id='선_35' data-name='선 35' x2='55.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
-          transition: all 0.3s;
-          opacity: 0;
-        }
-      }
-
-      .lnb3 {
-        position: absolute;
-        width: 81.5px;
-        height: 40.5px;
-        left: 273.5px;
-        top: 0px;
-        overflow: visible;
-
-        .lnb3_txt {
-          left: 0px;
-          top: 1px;
-          position: absolute;
-          overflow: visible;
-          width: 90px;
-          white-space: nowrap;
-          line-height: 28px;
-          margin-top: -4px;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 20px;
-          color: #ffffff;
-
-          &:hover + .under_bar3 {
-            opacity: 1;
-          }
-        }
-
-        .under_bar3 {
-          overflow: visible;
-          position: absolute;
-          width: 81.5px;
-          height: 3px;
-          left: 0px;
-          top: 40.5px;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='81.5' height='3' viewBox='0 0 81.5 3'%3E%3Cline id='선_36' data-name='선 36' x2='81.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
-          transition: all 0.3s;
-          opacity: 0;
-        }
-      }
-
-      .lnb4 {
-        position: absolute;
-        width: 74px;
-        height: 29px;
-        left: 424.5px;
-        top: 0px;
-        overflow: visible;
-
-        .lnb4_txt {
-          left: 0px;
-          top: 1px;
-          position: absolute;
-          overflow: visible;
-          width: 81px;
-          white-space: nowrap;
-          line-height: 28px;
-          margin-top: -4px;
-          text-align: left;
-          font-family: "NotoSansKR-Bold";
-          font-weight: bold;
-          font-size: 20px;
-          color: #ffffff;
-
-          &:hover + .under_bar4 {
-            opacity: 1;
-          }
-        }
-
-        .under_bar4 {
-          overflow: visible;
-          position: absolute;
-          width: 75px;
-          height: 3px;
-          left: 0px;
-          top: 40.5px;
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
-          transition: all 0.3s;
-          opacity: 0;
-        }
-      }
-    }
-
     .header_info {
       position: absolute;
       width: 120.78px;
@@ -447,558 +274,6 @@
       left: 425px;
       top: 1760px;
       overflow: visible;
-
-      .main_section3_left {
-        position: absolute;
-        width: 560px;
-        height: 532px;
-        left: 150px;
-        top: 80px;
-        overflow: visible;
-      }
-
-      .main_section3_bc {
-        overflow: visible;
-        position: absolute;
-        width: 740px;
-        height: 695px;
-        left: 0px;
-        top: 0px;
-        transform: matrix(1, 0, 0, 1, 0, 0);
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='740' height='695' viewBox='0 0 740 695'%3E%3Cpath id='백그라운드-회색' d='M0,0H740V695H0Z' fill='%23f3f3f3'/%3E%3C/svg%3E%0A");
-      }
-
-      .main_section3_left {
-        .News_Notice {
-          left: 167px;
-          top: 0px;
-          position: absolute;
-          overflow: visible;
-          width: 257px;
-          white-space: nowrap;
-          text-align: center;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 35px;
-          color: #000000;
-          letter-spacing: -0.25px;
-        }
-
-        .main3_left_1 {
-          position: absolute;
-          width: 560px;
-          height: 104px;
-          left: 0px;
-          top: 83px;
-          overflow: visible;
-
-          .box {
-            position: absolute;
-            overflow: visible;
-            width: 560px;
-            height: 104px;
-            left: 0px;
-            top: 0px;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
-          }
-
-          .text {
-            position: absolute;
-            width: 478px;
-            height: 75px;
-            left: 31px;
-            top: 14px;
-            overflow: visible;
-
-            .text_1 {
-              left: 0px;
-              top: 0px;
-              position: absolute;
-              overflow: visible;
-              width: 69px;
-              white-space: nowrap;
-              text-align: center;
-              font-family: "Montserrat-Bold";
-              font-weight: bold;
-              font-size: 35px;
-              color: #00a59a;
-              letter-spacing: -0.25px;
-            }
-
-            .text_2 {
-              left: 91px;
-              top: 23px;
-              position: absolute;
-              overflow: visible;
-              width: 388px;
-              white-space: nowrap;
-              line-height: 38px;
-              margin-top: -8px;
-              text-align: left;
-              font-family: "NotoSansKR-Bold";
-              font-weight: bold;
-              font-size: 22px;
-              color: #333333;
-              letter-spacing: -0.25px;
-            }
-          }
-
-          .arrow {
-            overflow: visible;
-            position: absolute;
-            width: 20.161px;
-            height: 16.528px;
-            left: 505.765px;
-            top: 47.776px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .arrow {
-            left: 515.765px;
-          }
-        }
-
-        .main3_left_2 {
-          position: absolute;
-          width: 560px;
-          height: 104px;
-          left: 0px;
-          top: 198px;
-          overflow: visible;
-
-          .box {
-            position: absolute;
-            overflow: visible;
-            width: 560px;
-            height: 104px;
-            left: 0px;
-            top: 0px;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
-          }
-
-          .text {
-            position: absolute;
-            width: 478px;
-            height: 75px;
-            left: 31px;
-            top: 14px;
-            overflow: visible;
-
-            .text_1 {
-              left: 0px;
-              top: 0px;
-              position: absolute;
-              overflow: visible;
-              width: 69px;
-              white-space: nowrap;
-              text-align: center;
-              font-family: "Montserrat-Bold";
-              font-weight: bold;
-              font-size: 35px;
-              color: #00a59a;
-              letter-spacing: -0.25px;
-            }
-
-            .text_2 {
-              left: 91px;
-              top: 23px;
-              position: absolute;
-              overflow: visible;
-              width: 388px;
-              white-space: nowrap;
-              line-height: 38px;
-              margin-top: -8px;
-              text-align: left;
-              font-family: "NotoSansKR-Bold";
-              font-weight: bold;
-              font-size: 22px;
-              color: #333333;
-              letter-spacing: -0.25px;
-            }
-          }
-
-          .arrow {
-            overflow: visible;
-            position: absolute;
-            width: 20.161px;
-            height: 16.528px;
-            left: 505.765px;
-            top: 47.776px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .arrow {
-            left: 515.765px;
-          }
-        }
-
-        .main3_left_3 {
-          position: absolute;
-          width: 560px;
-          height: 104px;
-          left: 0px;
-          top: 313px;
-          overflow: visible;
-
-          .box {
-            position: absolute;
-            overflow: visible;
-            width: 560px;
-            height: 104px;
-            left: 0px;
-            top: 0px;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
-          }
-
-          .text {
-            position: absolute;
-            width: 478px;
-            height: 75px;
-            left: 31px;
-            top: 14px;
-            overflow: visible;
-
-            .text_1 {
-              left: 0px;
-              top: 0px;
-              position: absolute;
-              overflow: visible;
-              width: 69px;
-              white-space: nowrap;
-              text-align: center;
-              font-family: "Montserrat-Bold";
-              font-weight: bold;
-              font-size: 35px;
-              color: #00a59a;
-              letter-spacing: -0.25px;
-            }
-
-            .text_2 {
-              left: 91px;
-              top: 23px;
-              position: absolute;
-              overflow: visible;
-              width: 388px;
-              white-space: nowrap;
-              line-height: 38px;
-              margin-top: -8px;
-              text-align: left;
-              font-family: "NotoSansKR-Bold";
-              font-weight: bold;
-              font-size: 22px;
-              color: #333333;
-              letter-spacing: -0.25px;
-            }
-          }
-
-          .arrow {
-            overflow: visible;
-            position: absolute;
-            width: 20.161px;
-            height: 16.528px;
-            left: 505.765px;
-            top: 47.776px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .arrow {
-            left: 515.765px;
-          }
-        }
-
-        .main3_left_4 {
-          position: absolute;
-          width: 560px;
-          height: 104px;
-          left: 0px;
-          top: 428px;
-          overflow: visible;
-
-          .box {
-            position: absolute;
-            overflow: visible;
-            width: 560px;
-            height: 104px;
-            left: 0px;
-            top: 0px;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
-          }
-
-          .text {
-            position: absolute;
-            width: 478px;
-            height: 75px;
-            left: 31px;
-            top: 14px;
-            overflow: visible;
-
-            .text_1 {
-              left: 0px;
-              top: 0px;
-              position: absolute;
-              overflow: visible;
-              width: 69px;
-              white-space: nowrap;
-              text-align: center;
-              font-family: "Montserrat-Bold";
-              font-weight: bold;
-              font-size: 35px;
-              color: #00a59a;
-              letter-spacing: -0.25px;
-            }
-
-            .text_2 {
-              left: 91px;
-              top: 23px;
-              position: absolute;
-              overflow: visible;
-              width: 388px;
-              white-space: nowrap;
-              line-height: 38px;
-              margin-top: -8px;
-              text-align: left;
-              font-family: "NotoSansKR-Bold";
-              font-weight: bold;
-              font-size: 22px;
-              color: #333333;
-              letter-spacing: -0.25px;
-            }
-          }
-
-          .arrow {
-            overflow: visible;
-            position: absolute;
-            width: 20.161px;
-            height: 16.528px;
-            left: 505.765px;
-            top: 47.776px;
-            transition: 0.3s;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .arrow {
-            left: 515.765px;
-          }
-        }
-      }
-
-      .main_section3_right {
-        position: absolute;
-        width: 560px;
-        height: 532.329px;
-        left: 770px;
-        top: 80px;
-        overflow: visible;
-
-        .Partner_Contact_us {
-          left: 131px;
-          top: 0px;
-          position: absolute;
-          overflow: visible;
-          width: 367px;
-          white-space: nowrap;
-          text-align: center;
-          font-family: "Montserrat-Bold";
-          font-weight: bold;
-          font-size: 35px;
-          color: #010011;
-          letter-spacing: -0.25px;
-        }
-
-        .main3_right_1 {
-          position: absolute;
-          width: 270px;
-          height: 450.329px;
-          left: 0px;
-          top: 82px;
-          overflow: visible;
-
-          .img {
-            position: absolute;
-            width: 270px;
-            height: 450px;
-            left: 0px;
-            top: 0.329px;
-            overflow: visible;
-          }
-
-          .main3_right_2 {
-            left: 43px;
-            top: 97.671px;
-            position: absolute;
-            overflow: visible;
-            width: 185px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 30px;
-            color: #3cc1c6;
-            letter-spacing: -0.25px;
-          }
-
-          .main3_right_3 {
-            left: 42px;
-            top: 162px;
-            position: absolute;
-            overflow: visible;
-            width: 187px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "NotoSansKR-Regular";
-            font-weight: normal;
-            font-size: 16px;
-            color: #3cc1c6;
-            letter-spacing: -0.25px;
-          }
-
-          .main3_right_4 {
-            left: 13px;
-            top: 284px;
-            position: absolute;
-            overflow: visible;
-            width: 245px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "NotoSansKR-Regular";
-            font-weight: normal;
-            font-size: 16px;
-            color: #3cc1c6;
-            letter-spacing: -0.25px;
-          }
-
-          .main3_right_5 {
-            position: absolute;
-            width: 110px;
-            height: 38px;
-            left: 80px;
-            top: 340px;
-            overflow: visible;
-
-            .button {
-              position: absolute;
-              overflow: visible;
-              width: 110px;
-              height: 38px;
-              left: 0px;
-              top: 0px;
-              transition: 0.3s;
-              background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-            }
-
-            &:hover > .button {
-              background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-            }
-          }
-
-          .main3_right_6 {
-            position: absolute;
-            width: 110px;
-            height: 38px;
-            left: 80px;
-            top: 218px;
-            overflow: visible;
-
-            .button {
-              position: absolute;
-              overflow: visible;
-              width: 110px;
-              height: 38px;
-              left: 0px;
-              top: 0px;
-              transition: 0.3s;
-              background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-            }
-
-            &:hover > .button {
-              background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-            }
-          }
-        }
-
-        .main3_right_2 {
-          position: absolute;
-          width: 270px;
-          height: 450px;
-          left: 290px;
-          top: 82.329px;
-          overflow: visible;
-
-          .img {
-            position: absolute;
-            width: 270px;
-            height: 450px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-          }
-
-          .text {
-            left: 58px;
-            top: 205px;
-            position: absolute;
-            overflow: visible;
-            width: 155px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "NotoSansKR-Bold";
-            font-weight: bold;
-            font-size: 30px;
-            color: #ffffff;
-            transition: 0.3s;
-            letter-spacing: -0.25px;
-          }
-
-          &:hover > .text {
-            top: 97.342px;
-            color: #3cc1c6;
-          }
-
-          .text2 {
-            left: 53px;
-            top: 197.546px;
-            position: absolute;
-            overflow: visible;
-            width: 165px;
-            white-space: nowrap;
-            text-align: center;
-            font-family: "NotoSansKR-Bold";
-            font-weight: normal;
-            font-size: 16px;
-            color: #3cc1c6;
-            letter-spacing: -0.25px;
-            opacity: 0;
-            transition: 0.3s;
-          }
-
-          &:hover > .text2 {
-            opacity: 1;
-          }
-
-          .button {
-            position: absolute;
-            width: 110px;
-            height: 38px;
-            left: 80px;
-            top: 324px;
-            overflow: visible;
-            transition: 0.3s;
-            opacity: 0;
-            background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-          }
-
-          &:hover > .button {
-            opacity: 1;
-          }
-
-          .button:hover {
-            background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-          }
-        }
-      }
     }
   }
 
@@ -1009,15 +284,6 @@
     left: 0px;
     top: 2455px;
     overflow: visible;
-
-    .img {
-      position: absolute;
-      width: 224.901px;
-      height: 25px;
-      left: 150px;
-      top: 25px;
-      overflow: visible;
-    }
 
     .footer_bc {
       position: absolute;
@@ -1037,20 +303,6 @@
       left: 445.5px;
       top: 267px;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='885' height='1' viewBox='0 0 885 1'%3E%3Cline id='선_10' data-name='선 10' x2='885' transform='translate(0 0.5)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/svg%3E%0A");
-    }
-
-    .address {
-      left: 444px;
-      top: 110px;
-      position: absolute;
-      overflow: visible;
-      width: 271px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Regular";
-      font-weight: normal;
-      font-size: 14px;
-      color: #b8b8b8;
     }
 
     .tel {
@@ -1126,77 +378,182 @@
         color: #b8b8b8;
       }
     }
-
-    .copyright {
-      left: 444px;
-      top: 170px;
-      position: absolute;
-      overflow: visible;
-      width: 318px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Bold";
-      font-weight: bold;
-      font-size: 14px;
-      color: #b8b8b8;
-    }
-
-    .privacy {
-      left: 444px;
-      top: 30px;
-      position: absolute;
-      overflow: visible;
-      width: 117px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Regular";
-      font-weight: normal;
-      font-size: 14px;
-      color: #ffffff;
-    }
-
-    .email {
-      left: 590px;
-      top: 30px;
-      position: absolute;
-      overflow: visible;
-      width: 127px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Regular";
-      font-weight: normal;
-      font-size: 14px;
-      color: #b1b1b1;
-    }
-
-    .select_box {
-      position: absolute;
-      width: 380px;
-      height: 45px;
-      left: 950px;
-      top: 17px;
-      overflow: visible;
-      background-image: url("data:image/svg+xml,%3Csvg id='select-black' xmlns='http://www.w3.org/2000/svg' width='380' height='45' viewBox='0 0 380 45'%3E%3Cg id='사각형_121' data-name='사각형 121' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='45' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='44' fill='none'/%3E%3C/g%3E%3Ctext id='Family_Site' data-name='Family Site' transform='translate(20 30)' fill='%23fff' font-size='16' font-family='SegoeUI-Bold, Segoe UI' font-weight='700'%3E%3Ctspan x='0' y='0'%3EFamily Site%3C/tspan%3E%3C/text%3E%3Cpath id='아이콘-arrow' d='M-1540,0l-5,5Zm-10,0,5,5Z' transform='translate(1900 22)' fill='none' stroke='%23fff' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
-    }
-
-    .select_box2 {
-      position: absolute;
-      overflow: visible;
-      width: 380px;
-      height: 205px;
-      left: 950px;
-      top: -187px;
-      display: none;
-      transition: 0.3s;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='380' height='205' viewBox='0 0 380 205'%3E%3Cg id='사각형_346' data-name='사각형 346' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='205' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='204' fill='none'/%3E%3C/g%3E%3Cg id='option' transform='translate(20 20)'%3E%3Ctext id='텐베거_테크인포_플랫폼' data-name='텐베거 테크인포 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E테크인포%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-2' data-name='option' transform='translate(20 54)'%3E%3Ctext id='텐베거_트레이딩_플랫폼' data-name='텐베거 트레이딩 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E트레이딩%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-3' data-name='option' transform='translate(20 118)'%3E%3Ctext id='아이피밸류_파트너스' data-name='아이피밸류 파트너스' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E아이피밸류%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E파트너스%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-4' data-name='option' transform='translate(20 152)'%3E%3Ctext id='오픈아이피' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E오픈아이피%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cline id='중간_선' data-name='중간 선' x2='340' transform='translate(20.5 98)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/svg%3E%0A");
-    }
-
-    .select_box:hover + .select_box2 {
-      display: block;
-    }
   }
 }
 @media (max-width: 10000px) {
+  nav {
+    position: absolute;
+    width: 498.5px;
+    height: 40.5px;
+    left: 340.5px;
+    top: 0px;
+    overflow: visible;
+    transition: all 0.3s;
+
+    .lnb1 {
+      position: absolute;
+      width: 75px;
+      height: 40.5px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb1_txt {
+        left: 0.5px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar1 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar1 {
+        overflow: visible;
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb2 {
+      position: absolute;
+      width: 55.5px;
+      height: 40.5px;
+      left: 144.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb2_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 61px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar2 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar2 {
+        overflow: visible;
+        position: absolute;
+        width: 55.5px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55.5' height='3' viewBox='0 0 55.5 3'%3E%3Cline id='선_35' data-name='선 35' x2='55.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb3 {
+      position: absolute;
+      width: 81.5px;
+      height: 40.5px;
+      left: 273.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb3_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 90px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar3 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar3 {
+        overflow: visible;
+        position: absolute;
+        width: 81.5px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='81.5' height='3' viewBox='0 0 81.5 3'%3E%3Cline id='선_36' data-name='선 36' x2='81.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb4 {
+      position: absolute;
+      width: 74px;
+      height: 29px;
+      left: 424.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb4_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar4 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar4 {
+        overflow: visible;
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+  }
   .Unicorn_Ranch {
     left: 508px;
     top: 34px;
@@ -1210,6 +567,7 @@
     font-size: 80px;
     color: #ffffff;
     letter-spacing: -0.2px;
+    transition: all 0.3s;
   }
   .contents {
     opacity: 0.8;
@@ -1226,6 +584,7 @@
     font-size: 20px;
     color: #ffffff;
     display: block;
+    transition: all 0.3s;
   }
   .detail {
     position: absolute;
@@ -1234,6 +593,7 @@
     left: 575px;
     top: 332px;
     overflow: visible;
+    transition: all 0.3s;
 
     .details {
       opacity: 0.8;
@@ -1281,6 +641,7 @@
     left: 513px;
     top: 80px;
     overflow: visible;
+    transition: all 0.3s;
 
     .content {
       left: 0px;
@@ -1295,6 +656,7 @@
       font-size: 25px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .About_Unicorn_Ranch {
@@ -1310,6 +672,7 @@
       font-size: 40px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .text1 {
@@ -1319,6 +682,7 @@
       left: 46px;
       top: 181px;
       overflow: visible;
+      transition: all 0.3s;
 
       .text_l {
         left: 25px;
@@ -1363,6 +727,7 @@
       left: 230px;
       top: 181px;
       overflow: visible;
+      transition: all 0.3s;
 
       .text_r {
         left: 25px;
@@ -1403,6 +768,7 @@
     left: 150px;
     top: 398px;
     overflow: visible;
+    transition: all 0.3s;
 
     .main2_left {
       position: absolute;
@@ -1411,6 +777,7 @@
       left: 0px;
       top: 0px;
       overflow: visible;
+      transition: all 0.3s;
     }
 
     .main2_left_1 {
@@ -1420,6 +787,7 @@
       left: 46px;
       top: 50px;
       overflow: visible;
+      transition: all 0.3s;
 
       .main2_left_1_img {
         position: absolute;
@@ -1428,6 +796,7 @@
         left: 0px;
         top: 0px;
         overflow: visible;
+        transition: all 0.3s;
 
         .img {
           position: absolute;
@@ -1436,6 +805,7 @@
           left: 0px;
           top: 0px;
           overflow: visible;
+          transition: all 0.3s;
         }
       }
     }
@@ -1453,6 +823,7 @@
       font-size: 15px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_3 {
@@ -1468,6 +839,7 @@
       font-size: 30px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_4 {
@@ -1483,6 +855,7 @@
       font-size: 18px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_5 {
@@ -1492,6 +865,7 @@
       left: 46px;
       top: 247px;
       overflow: visible;
+      transition: all 0.3s;
 
       .detail {
         left: 25px;
@@ -1536,6 +910,7 @@
     left: 750px;
     top: 398px;
     overflow: visible;
+    transition: all 0.3s;
 
     .main2_right {
       position: absolute;
@@ -1544,6 +919,7 @@
       left: 0px;
       top: 0px;
       overflow: visible;
+      transition: all 0.3s;
     }
 
     .main2_right_1 {
@@ -1553,6 +929,7 @@
       left: 45px;
       top: 50px;
       overflow: visible;
+      transition: all 0.3s;
 
       .img {
         position: absolute;
@@ -1561,6 +938,7 @@
         left: 0px;
         top: 0px;
         overflow: visible;
+        transition: all 0.3s;
       }
     }
 
@@ -1577,6 +955,7 @@
       font-size: 15px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_3 {
@@ -1592,6 +971,7 @@
       font-size: 30px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_4 {
@@ -1607,6 +987,7 @@
       font-size: 18px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_5 {
@@ -1616,6 +997,7 @@
       left: 45px;
       top: 247px;
       overflow: visible;
+      transition: all 0.3s;
 
       .button {
         position: absolute;
@@ -1653,9 +1035,858 @@
       }
     }
   }
+  footer .img {
+    position: absolute;
+    width: 224.901px;
+    height: 25px;
+    left: 150px;
+    top: 25px;
+    overflow: visible;
+  }
+  .privacy {
+    left: 444px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 0.3s;
+  }
+
+  .email {
+    left: 590px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 127px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #b1b1b1;
+    transition: all 0.3s;
+  }
+  .select_box {
+    position: absolute;
+    width: 380px;
+    height: 45px;
+    left: 950px;
+    top: 17px;
+    overflow: visible;
+    background-image: url("data:image/svg+xml,%3Csvg id='select-black' xmlns='http://www.w3.org/2000/svg' width='380' height='45' viewBox='0 0 380 45'%3E%3Cg id='사각형_121' data-name='사각형 121' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='45' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='44' fill='none'/%3E%3C/g%3E%3Ctext id='Family_Site' data-name='Family Site' transform='translate(20 30)' fill='%23fff' font-size='16' font-family='SegoeUI-Bold, Segoe UI' font-weight='700'%3E%3Ctspan x='0' y='0'%3EFamily Site%3C/tspan%3E%3C/text%3E%3Cpath id='아이콘-arrow' d='M-1540,0l-5,5Zm-10,0,5,5Z' transform='translate(1900 22)' fill='none' stroke='%23fff' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+
+  .select_box2 {
+    position: absolute;
+    overflow: visible;
+    width: 380px;
+    height: 205px;
+    left: 950px;
+    top: -187px;
+    display: none;
+    transition: 0.3s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='380' height='205' viewBox='0 0 380 205'%3E%3Cg id='사각형_346' data-name='사각형 346' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='205' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='204' fill='none'/%3E%3C/g%3E%3Cg id='option' transform='translate(20 20)'%3E%3Ctext id='텐베거_테크인포_플랫폼' data-name='텐베거 테크인포 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E테크인포%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-2' data-name='option' transform='translate(20 54)'%3E%3Ctext id='텐베거_트레이딩_플랫폼' data-name='텐베거 트레이딩 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E트레이딩%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-3' data-name='option' transform='translate(20 118)'%3E%3Ctext id='아이피밸류_파트너스' data-name='아이피밸류 파트너스' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E아이피밸류%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E파트너스%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-4' data-name='option' transform='translate(20 152)'%3E%3Ctext id='오픈아이피' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E오픈아이피%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cline id='중간_선' data-name='중간 선' x2='340' transform='translate(20.5 98)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+
+  .select_box:hover + .select_box2 {
+    display: block;
+  }
+  .address {
+    left: 444px;
+    top: 110px;
+    position: absolute;
+    overflow: visible;
+    width: 271px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #b8b8b8;
+    transition: all 0.3s;
+  }
+  .copyright {
+    left: 444px;
+    top: 170px;
+    position: absolute;
+    overflow: visible;
+    width: 318px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Bold";
+    font-weight: bold;
+    font-size: 14px;
+    color: #b8b8b8;
+    transition: all 0.3s;
+  }
+  .main_section3_bc {
+    overflow: visible;
+    position: absolute;
+    width: 740px;
+    height: 695px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='740' height='695' viewBox='0 0 740 695'%3E%3Cpath id='백그라운드-회색' d='M0,0H740V695H0Z' fill='%23f3f3f3'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+  .main_section3_left {
+    position: absolute;
+    width: 560px;
+    height: 532px;
+    left: 150px;
+    top: 80px;
+    overflow: visible;
+    transition: all 0.3s;
+  }
+  .main_section3_left {
+    .News_Notice {
+      left: 167px;
+      top: 0px;
+      position: absolute;
+      overflow: visible;
+      width: 257px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 35px;
+      color: #000000;
+      letter-spacing: -0.25px;
+      transition: all 0.3s;
+    }
+
+    .main3_left_1 {
+      position: absolute;
+      width: 560px;
+      height: 104px;
+      left: 0px;
+      top: 83px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 560px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 478px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+        }
+
+        .text_2 {
+          left: 91px;
+          top: 23px;
+          position: absolute;
+          overflow: visible;
+          width: 388px;
+          white-space: nowrap;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 505.765px;
+        top: 47.776px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_2 {
+      position: absolute;
+      width: 560px;
+      height: 104px;
+      left: 0px;
+      top: 198px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 560px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 478px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+        }
+
+        .text_2 {
+          left: 91px;
+          top: 23px;
+          position: absolute;
+          overflow: visible;
+          width: 388px;
+          white-space: nowrap;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 505.765px;
+        top: 47.776px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_3 {
+      position: absolute;
+      width: 560px;
+      height: 104px;
+      left: 0px;
+      top: 313px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 560px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 478px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+        }
+
+        .text_2 {
+          left: 91px;
+          top: 23px;
+          position: absolute;
+          overflow: visible;
+          width: 388px;
+          white-space: nowrap;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 505.765px;
+        top: 47.776px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_4 {
+      position: absolute;
+      width: 560px;
+      height: 104px;
+      left: 0px;
+      top: 428px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 560px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 478px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+        }
+
+        .text_2 {
+          left: 91px;
+          top: 23px;
+          position: absolute;
+          overflow: visible;
+          width: 388px;
+          white-space: nowrap;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 505.765px;
+        top: 47.776px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+  }
+  .main_section3_right {
+    position: absolute;
+    width: 560px;
+    height: 532.329px;
+    left: 770px;
+    top: 80px;
+    overflow: visible;
+    transition: all 0.3s;
+
+    .Partner_Contact_us {
+      left: 131px;
+      top: 0px;
+      position: absolute;
+      overflow: visible;
+      width: 367px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 35px;
+      color: #010011;
+      letter-spacing: -0.25px;
+    }
+
+    .main3_right_1 {
+      position: absolute;
+      width: 270px;
+      height: 450.329px;
+      left: 0px;
+      top: 82px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .img {
+        position: absolute;
+        width: 270px;
+        height: 450px;
+        left: 0px;
+        top: 0.329px;
+        overflow: visible;
+        transition: all 0.3s;
+      }
+
+      .main3_right_2 {
+        left: 43px;
+        top: 97.671px;
+        position: absolute;
+        overflow: visible;
+        width: 185px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 30px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_3 {
+        left: 42px;
+        top: 162px;
+        position: absolute;
+        overflow: visible;
+        width: 187px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Regular";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_4 {
+        left: 13px;
+        top: 284px;
+        position: absolute;
+        overflow: visible;
+        width: 245px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Regular";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_5 {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 340px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .button {
+          position: absolute;
+          overflow: visible;
+          width: 110px;
+          height: 38px;
+          left: 0px;
+          top: 0px;
+          transition: 0.3s;
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+
+        &:hover > .button {
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+      }
+
+      .main3_right_6 {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 218px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .button {
+          position: absolute;
+          overflow: visible;
+          width: 110px;
+          height: 38px;
+          left: 0px;
+          top: 0px;
+          transition: 0.3s;
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+
+        &:hover > .button {
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+      }
+    }
+
+    .main3_right_2 {
+      position: absolute;
+      width: 270px;
+      height: 450px;
+      left: 290px;
+      top: 82.329px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .img {
+        position: absolute;
+        width: 270px;
+        height: 450px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        transition: all 0.3s;
+      }
+
+      .text {
+        left: 58px;
+        top: 205px;
+        position: absolute;
+        overflow: visible;
+        width: 155px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        transition: 0.3s;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      &:hover > .text {
+        top: 97.342px;
+        color: #3cc1c6;
+      }
+
+      .text2 {
+        left: 53px;
+        top: 197.546px;
+        position: absolute;
+        overflow: visible;
+        width: 165px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        opacity: 0;
+        transition: 0.3s;
+        transition: all 0.3s;
+      }
+
+      &:hover > .text2 {
+        opacity: 1;
+      }
+
+      .button {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 324px;
+        overflow: visible;
+        transition: 0.3s;
+        opacity: 0;
+        background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .button {
+        opacity: 1;
+      }
+
+      .button:hover {
+        background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+      }
+    }
+  }
 }
 
 @media (max-width: 634px) {
+  nav {
+    position: absolute;
+    width: 498.5px;
+    height: 40.5px;
+    left: -80px;
+    top: 70px;
+    overflow: visible;
+    transition: all 0.3s;
+
+    .lnb1 {
+      position: absolute;
+      width: 75px;
+      height: 40.5px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb1_txt {
+        left: 0.5px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar1 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar1 {
+        overflow: visible;
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb2 {
+      position: absolute;
+      width: 55.5px;
+      height: 40.5px;
+      left: 144.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb2_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 61px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar2 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar2 {
+        overflow: visible;
+        position: absolute;
+        width: 55.5px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55.5' height='3' viewBox='0 0 55.5 3'%3E%3Cline id='선_35' data-name='선 35' x2='55.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb3 {
+      position: absolute;
+      width: 81.5px;
+      height: 40.5px;
+      left: 273.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb3_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 90px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar3 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar3 {
+        overflow: visible;
+        position: absolute;
+        width: 81.5px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='81.5' height='3' viewBox='0 0 81.5 3'%3E%3Cline id='선_36' data-name='선 36' x2='81.5' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+
+    .lnb4 {
+      position: absolute;
+      width: 74px;
+      height: 29px;
+      left: 424.5px;
+      top: 0px;
+      overflow: visible;
+
+      .lnb4_txt {
+        left: 0px;
+        top: 1px;
+        position: absolute;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+
+        &:hover + .under_bar4 {
+          opacity: 1;
+        }
+      }
+
+      .under_bar4 {
+        overflow: visible;
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        left: 0px;
+        top: 40.5px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='3' viewBox='0 0 75 3'%3E%3Cline id='선_34' data-name='선 34' x2='75' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+        opacity: 0;
+      }
+    }
+  }
   .Unicorn_Ranch {
     left: 395px;
     top: 60px;
@@ -1669,6 +1900,7 @@
     font-size: 40px;
     color: #ffffff;
     letter-spacing: -0.2px;
+    transition: all 0.3s;
   }
   .contents {
     opacity: 0.8;
@@ -1685,6 +1917,7 @@
     font-size: 20px;
     color: #ffffff;
     display: block;
+    transition: all 0.3s;
   }
   .detail {
     position: absolute;
@@ -1693,6 +1926,7 @@
     left: 575px;
     top: 500px;
     overflow: visible;
+    transition: all 0.3s;
 
     .details {
       opacity: 0.8;
@@ -1740,6 +1974,7 @@
     left: 100px;
     top: 50px;
     overflow: visible;
+    transition: all 0.3s;
 
     .content {
       left: 0px;
@@ -1754,6 +1989,7 @@
       font-size: 15px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .About_Unicorn_Ranch {
@@ -1769,6 +2005,7 @@
       font-size: 25px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .text1 {
@@ -1778,6 +2015,7 @@
       left: 46px;
       top: 100px;
       overflow: visible;
+      transition: all 0.3s;
 
       .text_l {
         left: 25px;
@@ -1822,6 +2060,7 @@
       left: 230px;
       top: 100px;
       overflow: visible;
+      transition: all 0.3s;
 
       .text_r {
         left: 25px;
@@ -1855,139 +2094,7 @@
       }
     }
   }
-  .main_section2_left {
-    position: absolute;
-    width: 580px;
-    height: 350px;
-    left: 150px;
-    top: 398px;
-    overflow: visible;
 
-    .main2_left {
-      position: absolute;
-      width: 580px;
-      height: 350px;
-      left: 0px;
-      top: 0px;
-      overflow: visible;
-    }
-
-    .main2_left_1 {
-      position: absolute;
-      width: 149.703px;
-      height: 34px;
-      left: 46px;
-      top: 50px;
-      overflow: visible;
-
-      .main2_left_1_img {
-        position: absolute;
-        width: 149.703px;
-        height: 34px;
-        left: 0px;
-        top: 0px;
-        overflow: visible;
-
-        .img {
-          position: absolute;
-          width: 149.703px;
-          height: 34px;
-          left: 0px;
-          top: 0px;
-          overflow: visible;
-        }
-      }
-    }
-
-    .main2_left_2 {
-      left: 46px;
-      top: 114px;
-      position: absolute;
-      overflow: visible;
-      width: 66px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "Montserrat-Bold";
-      font-weight: bold;
-      font-size: 15px;
-      color: #ffffff;
-      letter-spacing: -0.25px;
-    }
-
-    .main2_left_3 {
-      left: 46px;
-      top: 135px;
-      position: absolute;
-      overflow: visible;
-      width: 378px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Bold";
-      font-weight: bold;
-      font-size: 30px;
-      color: #ffffff;
-      letter-spacing: -0.25px;
-    }
-
-    .main2_left_4 {
-      left: 46px;
-      top: 197px;
-      position: absolute;
-      overflow: visible;
-      width: 383px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: "NotoSansKR-Bold";
-      font-weight: bold;
-      font-size: 18px;
-      color: #ffffff;
-      letter-spacing: -0.25px;
-    }
-
-    .main2_left_5 {
-      position: absolute;
-      width: 174px;
-      height: 57px;
-      left: 46px;
-      top: 247px;
-      overflow: visible;
-
-      .detail {
-        left: 25px;
-        top: 19px;
-        position: absolute;
-        overflow: visible;
-        width: 79px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: "NotoSansKR-Bold";
-        font-weight: bold;
-        font-size: 16px;
-        color: #ffffff;
-        letter-spacing: -0.25px;
-        transition: 0.3s;
-      }
-
-      &:hover > .detail {
-        color: #3cc1c6;
-      }
-
-      .button {
-        position: absolute;
-        overflow: visible;
-        width: 174px;
-        height: 57px;
-        left: 0px;
-        top: 0px;
-        transition: 0.3s;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%239b9b9b' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(99 28.5)' fill='%23f5f5f5' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-      }
-
-      &:hover > .button {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='174' height='57' viewBox='0 0 174 57'%3E%3Cg id='사각형_125' data-name='사각형 125' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='174' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='173' height='56' fill='none'/%3E%3C/g%3E%3Cpath id='아이콘-바로가기' d='M50,0,41,6ZM24,0h0Z' transform='translate(109 28.5)' fill='%233cc1c6' stroke='%233cc1c6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/%3E%3C/svg%3E%0A");
-      }
-    }
-  }
   .main_section2_left {
     position: absolute;
     width: 580px;
@@ -1995,6 +2102,7 @@
     left: 30px;
     top: 250px;
     overflow: visible;
+    transition: all 0.3s;
 
     .main2_left {
       position: absolute;
@@ -2003,6 +2111,7 @@
       left: 0px;
       top: 0px;
       overflow: visible;
+      transition: all 0.3s;
     }
 
     .main2_left_1 {
@@ -2012,6 +2121,7 @@
       left: 46px;
       top: 60px;
       overflow: visible;
+      transition: all 0.3s;
 
       .main2_left_1_img {
         position: absolute;
@@ -2020,6 +2130,7 @@
         left: 0px;
         top: -40px;
         overflow: visible;
+        transition: all 0.3s;
 
         .img {
           position: absolute;
@@ -2028,6 +2139,7 @@
           left: 0px;
           top: 0px;
           overflow: visible;
+          transition: all 0.3s;
         }
       }
     }
@@ -2045,6 +2157,7 @@
       font-size: 15px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_3 {
@@ -2060,6 +2173,7 @@
       font-size: 30px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_4 {
@@ -2075,6 +2189,7 @@
       font-size: 18px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_left_5 {
@@ -2084,6 +2199,7 @@
       left: 46px;
       top: 177px;
       overflow: visible;
+      transition: all 0.3s;
 
       .detail {
         left: 25px;
@@ -2128,6 +2244,7 @@
     left: 30px;
     top: 540px;
     overflow: visible;
+    transition: all 0.3s;
 
     .main2_right {
       position: absolute;
@@ -2136,6 +2253,7 @@
       left: 0px;
       top: 0px;
       overflow: visible;
+      transition: all 0.3s;
     }
 
     .main2_right_1 {
@@ -2145,6 +2263,7 @@
       left: 46px;
       top: 20px;
       overflow: visible;
+      transition: all 0.3s;
 
       .img {
         position: absolute;
@@ -2153,6 +2272,7 @@
         left: 0px;
         top: 0px;
         overflow: visible;
+        transition: all 0.3s;
       }
     }
 
@@ -2169,6 +2289,7 @@
       font-size: 15px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_3 {
@@ -2184,6 +2305,7 @@
       font-size: 30px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_4 {
@@ -2199,6 +2321,7 @@
       font-size: 18px;
       color: #ffffff;
       letter-spacing: -0.25px;
+      transition: all 0.3s;
     }
 
     .main2_right_5 {
@@ -2208,6 +2331,7 @@
       left: 46px;
       top: 177px;
       overflow: visible;
+      transition: all 0.3s;
 
       .button {
         position: absolute;
@@ -2242,6 +2366,685 @@
 
       &:hover > .detail {
         color: #3cc1c6;
+      }
+    }
+  }
+  footer .img {
+    position: absolute;
+    width: 224.901px;
+    height: 25px;
+    left: 150px;
+    top: 25px;
+    overflow: visible;
+    display: none;
+  }
+  .privacy {
+    left: 50px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 0.3s;
+  }
+
+  .email {
+    left: 196px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 127px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #b1b1b1;
+    transition: all 0.3s;
+  }
+  .select_box {
+    position: absolute;
+    width: 380px;
+    height: 45px;
+    left: 50px;
+    top: 50px;
+    overflow: visible;
+    background-image: url("data:image/svg+xml,%3Csvg id='select-black' xmlns='http://www.w3.org/2000/svg' width='380' height='45' viewBox='0 0 380 45'%3E%3Cg id='사각형_121' data-name='사각형 121' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='45' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='44' fill='none'/%3E%3C/g%3E%3Ctext id='Family_Site' data-name='Family Site' transform='translate(20 30)' fill='%23fff' font-size='16' font-family='SegoeUI-Bold, Segoe UI' font-weight='700'%3E%3Ctspan x='0' y='0'%3EFamily Site%3C/tspan%3E%3C/text%3E%3Cpath id='아이콘-arrow' d='M-1540,0l-5,5Zm-10,0,5,5Z' transform='translate(1900 22)' fill='none' stroke='%23fff' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+
+  .select_box2 {
+    position: absolute;
+    overflow: visible;
+    width: 380px;
+    height: 205px;
+    left: 50px;
+    top: -154px;
+    display: none;
+    transition: 0.3s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='380' height='205' viewBox='0 0 380 205'%3E%3Cg id='사각형_346' data-name='사각형 346' fill='%23202020' stroke='%23444' stroke-width='1'%3E%3Crect width='380' height='205' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='379' height='204' fill='none'/%3E%3C/g%3E%3Cg id='option' transform='translate(20 20)'%3E%3Ctext id='텐베거_테크인포_플랫폼' data-name='텐베거 테크인포 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E테크인포%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-2' data-name='option' transform='translate(20 54)'%3E%3Ctext id='텐베거_트레이딩_플랫폼' data-name='텐베거 트레이딩 플랫폼' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E텐베거%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E트레이딩%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E플랫폼%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-3' data-name='option' transform='translate(20 118)'%3E%3Ctext id='아이피밸류_파트너스' data-name='아이피밸류 파트너스' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E아이피밸류%3C/tspan%3E%3Ctspan y='0' font-family='SegoeUI, Segoe UI'%3E%3C/tspan%3E%3Ctspan y='0'%3E파트너스%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cg id='option-4' data-name='option' transform='translate(20 152)'%3E%3Ctext id='오픈아이피' transform='translate(0 19)' fill='%23d8d8d8' font-size='16' font-family='MalgunGothic, Malgun Gothic'%3E%3Ctspan x='0' y='0'%3E오픈아이피%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cline id='중간_선' data-name='중간 선' x2='340' transform='translate(20.5 98)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+
+  .select_box:hover + .select_box2 {
+    display: block;
+  }
+  .address {
+    left: 50px;
+    top: 110px;
+    position: absolute;
+    overflow: visible;
+    width: 271px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Regular";
+    font-weight: normal;
+    font-size: 14px;
+    color: #b8b8b8;
+    transition: all 0.3s;
+  }
+  .copyright {
+    left: 50px;
+    top: 170px;
+    position: absolute;
+    overflow: visible;
+    width: 318px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "NotoSansKR-Bold";
+    font-weight: bold;
+    font-size: 14px;
+    color: #b8b8b8;
+    transition: all 0.3s;
+  }
+  .main_section3_bc {
+    overflow: visible;
+    position: absolute;
+    width: 740px;
+    height: 347.5px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='740' height='695' viewBox='0 0 740 695'%3E%3Cpath id='백그라운드-회색' d='M0,0H740V695H0Z' fill='%23f3f3f3'/%3E%3C/svg%3E%0A");
+    transition: all 0.3s;
+  }
+  .main_section3_left {
+    position: absolute;
+    width: 560px;
+    height: 532px;
+    left: 37px;
+    top: 10px;
+    overflow: visible;
+    transition: all 0.3s;
+  }
+  .main_section3_left {
+    .News_Notice {
+      left: 167px;
+      top: 10px;
+      position: absolute;
+      overflow: visible;
+      width: 257px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 35px;
+      color: #000000;
+      letter-spacing: -0.25px;
+      transition: all 0.3s;
+    }
+
+    .main3_left_1 {
+      position: absolute;
+      width: 280px;
+      height: 104px;
+      left: -10px;
+      top: 83px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 280px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 200px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+          display: none;
+        }
+
+        .text_2 {
+          left: 0px;
+          top: 14px;
+          position: absolute;
+          overflow: visible;
+          width: 250px;
+          white-space: normal;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 200px;
+        top: 70px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_2 {
+      position: absolute;
+      width: 280px;
+      height: 104px;
+      left: 290px;
+      top: 83px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 280px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 200px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+          display: none;
+        }
+
+        .text_2 {
+          left: 0px;
+          top: 14px;
+          position: absolute;
+          overflow: visible;
+          width: 250px;
+          white-space: normal;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 200px;
+        top: 70px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_3 {
+      position: absolute;
+      width: 280px;
+      height: 104px;
+      left: -10px;
+      top: 213px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 280px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 200px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+          display: none;
+        }
+
+        .text_2 {
+          left: 0px;
+          top: 14px;
+          position: absolute;
+          overflow: visible;
+          width: 250px;
+          white-space: normal;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 200px;
+        top: 70px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+
+    .main3_left_4 {
+      position: absolute;
+      width: 280px;
+      height: 104px;
+      left: 290px;
+      top: 213px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .box {
+        position: absolute;
+        overflow: visible;
+        width: 280px;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='104' viewBox='0 0 560 104'%3E%3Crect id='사각형_126' data-name='사각형 126' width='560' height='104' fill='%23fff'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      .text {
+        position: absolute;
+        width: 200px;
+        height: 75px;
+        left: 31px;
+        top: 14px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .text_1 {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          overflow: visible;
+          width: 69px;
+          white-space: nowrap;
+          text-align: center;
+          font-family: "Montserrat-Bold";
+          font-weight: bold;
+          font-size: 35px;
+          color: #00a59a;
+          letter-spacing: -0.25px;
+          display: none;
+        }
+
+        .text_2 {
+          left: 0px;
+          top: 14px;
+          position: absolute;
+          overflow: visible;
+          width: 250px;
+          white-space: normal;
+          line-height: 38px;
+          margin-top: -8px;
+          text-align: left;
+          font-family: "NotoSansKR-Bold";
+          font-weight: bold;
+          font-size: 22px;
+          color: #333333;
+          letter-spacing: -0.25px;
+          transition: all 0.3s;
+        }
+      }
+
+      .arrow {
+        overflow: visible;
+        position: absolute;
+        width: 20.161px;
+        height: 16.528px;
+        left: 200px;
+        top: 70px;
+        transition: 0.3s;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.161' height='16.528' viewBox='0 0 20.161 16.528'%3E%3Cpath id='합치기_2' data-name='합치기 2' d='M18.161,7.265,10.9,14.528Zm0,0h0L10.9,0Z' transform='translate(1 1)' fill='none' stroke='%23707070' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+        transition: all 0.3s;
+      }
+
+      &:hover > .arrow {
+        left: 515.765px;
+      }
+    }
+  }
+  .main_section3_right {
+    position: absolute;
+    width: 560px;
+    height: 532.329px;
+    left: 37px;
+    top: 360px;
+    overflow: visible;
+    transition: all 0.3s;
+
+    .Partner_Contact_us {
+      left: 131px;
+      top: 0px;
+      position: absolute;
+      overflow: visible;
+      width: 367px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      font-size: 35px;
+      color: #010011;
+      letter-spacing: -0.25px;
+    }
+
+    .main3_right_1 {
+      position: absolute;
+      width: 270px;
+      height: 450.329px;
+      left: 0px;
+      top: 50px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .img {
+        position: absolute;
+        width: 270px;
+        height: 280px;
+        left: 0px;
+        top: 0.329px;
+        overflow: visible;
+        transition: all 0.3s;
+      }
+
+      .main3_right_2 {
+        left: 43px;
+        top: 20px;
+        position: absolute;
+        overflow: visible;
+        width: 185px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 30px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_3 {
+        left: 42px;
+        top: 70px;
+        position: absolute;
+        overflow: visible;
+        width: 187px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Regular";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_4 {
+        left: 13px;
+        top: 180px;
+        position: absolute;
+        overflow: visible;
+        width: 245px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Regular";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      .main3_right_5 {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 230px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .button {
+          position: absolute;
+          overflow: visible;
+          width: 110px;
+          height: 38px;
+          left: 0px;
+          top: 0px;
+          transition: 0.3s;
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+
+        &:hover > .button {
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+      }
+
+      .main3_right_6 {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 120px;
+        overflow: visible;
+        transition: all 0.3s;
+
+        .button {
+          position: absolute;
+          overflow: visible;
+          width: 110px;
+          height: 38px;
+          left: 0px;
+          top: 0px;
+          transition: 0.3s;
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+
+        &:hover > .button {
+          background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='문의하기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E문의하기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+        }
+      }
+    }
+
+    .main3_right_2 {
+      position: absolute;
+      width: 270px;
+      height: 450px;
+      left: 290px;
+      top: 50px;
+      overflow: visible;
+      transition: all 0.3s;
+
+      .img {
+        position: absolute;
+        width: 270px;
+        height: 280px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        transition: all 0.3s;
+      }
+
+      .text {
+        left: 58px;
+        top: 115px;
+        position: absolute;
+        overflow: visible;
+        width: 155px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        transition: 0.3s;
+        letter-spacing: -0.25px;
+        transition: all 0.3s;
+      }
+
+      &:hover > .text {
+        top: 40px;
+        color: #3cc1c6;
+      }
+
+      .text2 {
+        left: 53px;
+        top: 100px;
+        position: absolute;
+        overflow: visible;
+        width: 165px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "NotoSansKR-Bold";
+        font-weight: normal;
+        font-size: 16px;
+        color: #3cc1c6;
+        letter-spacing: -0.25px;
+        opacity: 0;
+        transition: all 0.3s;
+      }
+
+      &:hover > .text2 {
+        opacity: 1;
+      }
+
+      .button {
+        position: absolute;
+        width: 110px;
+        height: 38px;
+        left: 80px;
+        top: 220px;
+        overflow: visible;
+        transition: all 0.3s;
+        opacity: 0;
+        background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='none' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%233cc1c6' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+      }
+
+      &:hover > .button {
+        opacity: 1;
+      }
+
+      .button:hover {
+        background-image: url("data:image/svg+xml,%3Csvg id='버튼' xmlns='http://www.w3.org/2000/svg' width='110' height='38' viewBox='0 0 110 38'%3E%3Cg id='사각형_136' data-name='사각형 136' fill='%233cc1c6' stroke='%233cc1c6' stroke-width='1'%3E%3Crect width='110' height='38' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='109' height='37' fill='none'/%3E%3C/g%3E%3Ctext id='바로가기' transform='translate(54.952 26)' fill='%23fff' font-size='16' font-family='MalgunGothicBold, Malgun Gothic' letter-spacing='-0.025em'%3E%3Ctspan x='-31.4' y='0'%3E바로가기%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
       }
     }
   }
