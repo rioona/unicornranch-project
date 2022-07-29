@@ -188,6 +188,10 @@
             font-weight: bold;
             font-size: 25px;
             color: #ffffff;
+            transition: all 0.3s;
+            &:visited {
+              color: #00a59a;
+            }
           }
         }
       }
@@ -412,6 +416,7 @@
         font-weight: bold;
         font-size: 20px;
         color: #ffffff;
+        text-decoration-line: none;
 
         &:hover + .under_bar1 {
           opacity: 1;
@@ -453,6 +458,7 @@
         font-weight: bold;
         font-size: 20px;
         color: #ffffff;
+        text-decoration-line: none;
 
         &:hover + .under_bar2 {
           opacity: 1;
@@ -494,6 +500,7 @@
         font-weight: bold;
         font-size: 20px;
         color: #ffffff;
+        text-decoration-line: none;
 
         &:hover + .under_bar3 {
           opacity: 1;
@@ -535,6 +542,7 @@
         font-weight: bold;
         font-size: 20px;
         color: #ffffff;
+        text-decoration-line: none;
 
         &:hover + .under_bar4 {
           opacity: 1;

@@ -1,32 +1,32 @@
 <template>
   <div class="wrap">
     <header>
-      <div class="header_logo">
+      <NuxtLink to="/" class="header_logo">
         <img class="header_logo_img" src="\img\header_logo.png" />
-      </div>
+      </NuxtLink>
       <nav>
         <div class="lnb1">
-          <div class="lnb1_txt">
+          <NuxtLink to="/test" class="lnb1_txt">
             <span>회사소개</span>
-          </div>
+          </NuxtLink>
           <div class="under_bar1"></div>
         </div>
         <div class="lnb2">
-          <div class="lnb2_txt">
+          <NuxtLink to="/test2" class="lnb2_txt">
             <span>서비스</span>
-          </div>
+          </NuxtLink>
           <div class="under_bar2"></div>
         </div>
         <div class="lnb3">
-          <div class="lnb3_txt">
+          <NuxtLink to="/test3" class="lnb3_txt">
             <span>뉴스/공지</span>
-          </div>
+          </NuxtLink>
           <div class="under_bar3"></div>
         </div>
         <div class="lnb4">
-          <div class="lnb4_txt">
+          <NuxtLink to="/test4" class="lnb4_txt">
             <span>고객지원</span>
-          </div>
+          </NuxtLink>
           <div class="under_bar4"></div>
         </div>
       </nav>
@@ -126,9 +126,9 @@
                 >stock@unicornranch.co.kr</span
               >
             </div>
-            <div class="main3_right_5">
+            <NuxtLink to="/test6" class="main3_right_5">
               <div class="button"></div>
-            </div>
+            </NuxtLink>
             <div class="main3_right_4">
               <span>텐배거비상장</span><br /><span
                 style="
@@ -139,9 +139,9 @@
                 >unlistedstock@unicornranch.co.kr</span
               >
             </div>
-            <div class="main3_right_6">
+            <NuxtLink to="/test6" class="main3_right_6">
               <div class="button"></div>
-            </div>
+            </NuxtLink>
           </div>
           <div class="main3_right_2">
             <img class="img" src="\img\main3_2.png" />
@@ -154,7 +154,7 @@
                 서비스로<br />응대합니다.</span
               >
             </div>
-            <div class="button"></div>
+            <NuxtLink to="test7" class="button"></NuxtLink>
           </div>
         </div>
       </article>
@@ -199,12 +199,12 @@
           <div class="main2_left_4">
             <span>상장/비상장 종목에 대한 기업가치분석 정보 제공</span>
           </div>
-          <div class="main2_left_5">
+          <NuxtLink to="/test5" class="main2_left_5">
             <div class="detail">
               <span>자세히보기</span>
             </div>
             <div class="button"></div>
-          </div>
+          </NuxtLink>
         </div>
         <div class="main_section2_right">
           <img class="main2_right" src="\img\main2_r.png" />
@@ -220,12 +220,12 @@
           <div class="main2_right_4">
             <span>비상장종목 및 가상자산에 대한 거래시스템 서비스 제공</span>
           </div>
-          <div class="main2_right_5">
+          <NuxtLink to="/test5" class="main2_right_5">
             <div class="detail">
               <span>자세히보기</span>
             </div>
             <div class="button"></div>
-          </div>
+          </NuxtLink>
         </div>
       </article>
 
@@ -250,12 +250,12 @@
                 투자시스템을 조성합니다.</span
               >
             </div>
-            <div class="detail">
+            <NuxtLink to="/test5" class="detail">
               <div class="details">
                 <span>자세히 보기</span>
               </div>
               <div class="button"></div>
-            </div>
+            </NuxtLink>
           </div>
         </div>
         <div class="button_left">
@@ -308,7 +308,9 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {};
+</script>
 
 <style>
 @import "@/static/scss/style.scss";
