@@ -12,10 +12,12 @@
                     </nav>
                 </div>
                 <div class="right">
-                    <button type="button">KR</button>
+                    <div class="l_icon"></div>
+                    <button type="button" class="hr_tit">KR</button>
+                    <div class="r_icon"></div>
                     <ul>
-                        <li>KR</li>
-                        <li>EN</li>
+                        <li><button type="button">KR</button></li>
+                        <li><button type="button">EN</button></li>
                     </ul>
                 </div>
             </div>
@@ -23,37 +25,60 @@
         <div class="main">
             <div class="slideshow-container">
                 <div class="slideshow-wrapper">
-                    <div class="slide">
-                        <h3>About</h3>
-                        <h2>Unicorn Ranch</h2>
-                        <div class="s_text">
-                            유니콘랜치는 1999년 설립된 위즈도메인의 자회사로서 20여 년간 축적된 특허기반의<br>
-                            기업 기술정보를 바탕으로 국내 8만 비상장 데이터 및 국내/해외 상장 데이터를 분석하여,<br>
-                            금융소비자 및 엔젤투자자에게 우수기업을 연결시켜 기업에게는 자금 유치를 통한 기업 성장을<br>
-                            금융소비자에게는 정확한 기술정보제공 및 우량기술기업에 대한 투자의 기회를 제공하며<br>
-                            기업과 사용자 모두에게 선순환 투자 시스템을 조성합니다.</div>
-                    </div>
-                    <div class="slide">
-                        <h3>Service</h3>
-                        <div class="f_title">10Bagger</div>
-                        <div>Techinfo Platform</div>
-                        <div class="s_text">
-                            텐배거에서 제공되는 정보는 특허기반 밸류에이션을 산출하여 성장가능성 높은<br>
-                            상장/비상장 기술 종목을 발굴하고 모든 기술 기업의<br>
-                            데이터정보서비스, 섹터/테마랭킹, 퀀트 종목추천,  AI 매매신호, 기업가치분석리포트 정보를<br>
-                            증권사등의 기관에 DATA FEED, SaaS, ASP 서비스 형태로 제공합니다.
+                    <div class="slide s1">
+                        <div class="content">
+                            <h3>ABOUT</h3>
+                            <h2>
+                                <div>
+                                    <span>Unicorn Ranch</span>
+                                </div> 
+                            </h2>
+                            <div class="s_text">
+                                유니콘랜치는 1999년 설립된 위즈도메인의 자회사로서 20여 년간 축적된 특허기반의<br>
+                                기업 기술정보를 바탕으로 국내 8만 비상장 데이터 및 국내/해외 상장 데이터를 분석하여,<br>
+                                금융소비자 및 엔젤투자자에게 우수기업을 연결시켜 기업에게는 자금 유치를 통한 기업 성장을<br>
+                                금융소비자에게는 정확한 기술정보제공 및 우량기술기업에 대한 투자의 기회를 제공하며<br>
+                                기업과 사용자 모두에게 선순환 투자 시스템을 조성합니다.
+                            </div>
                         </div>
                     </div>
-                    <div class="slide">
-                        <h3>Service</h3>
-                        <div class="f_title">10Bagger</div>
-                        <div>Techinfo Platform</div>
-                        <div class="s_text">
-                            텐배거 트레이딩 서비스는 가상 자산에 대한 거래 기반으로 구성되었습니다.<br>
-                            이를 기반으로 국내 비상장 기업의 주식거래를 기본 가능으로 증권사등의 기관에<br>
-                            OpenAPI 형태의 SaaS 서비스를 제공합니다.<br>
-                            또한, 다양한 형태의 가상 자산을 거래할 수 있는 기능을<br>
-                            SaaS, ASP 서비스 형태로 제공합니다.
+                    <div class="slide s2">
+                        <div class="content">
+                            <h3>Service</h3>
+                            <h2>
+                                <div>
+                                    <span>10Bagger</span>
+                                </div>
+                                <div>
+                                    <span>Techinfo Platform</span>
+                                </div>
+                            </h2>
+                            <div class="s_text">
+                                텐배거에서 제공되는 정보는 특허기반 밸류에이션을 산출하여 성장가능성 높은<br>
+                                상장/비상장 기술 종목을 발굴하고 모든 기술 기업의<br>
+                                데이터정보서비스, 섹터/테마랭킹, 퀀트 종목추천,  AI 매매신호, 기업가치분석리포트 정보를<br>
+                                증권사등의 기관에 DATA FEED, SaaS, ASP 서비스 형태로 제공합니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide s3">
+                        <div class="content">
+                            <h3>Service</h3>
+                            <h2>
+                                <div>
+                                    <span>10Bagger</span>
+                                </div>
+                                <div>
+                                    <span>Techinfo Platform</span>
+                                </div>
+                            </h2>
+                            <div class="s_text">
+                                텐배거 트레이딩 서비스는 가상 자산에 대한 거래 기반으로 구성되었습니다.<br>
+                                이를 기반으로 국내 비상장 기업의 주식거래를 기본 가능으로 증권사등의 기관에<br>
+                                OpenAPI 형태의 SaaS 서비스를 제공합니다.<br>
+                                또한, 다양한 형태의 가상 자산을 거래할 수 있는 기능을<br>
+                                SaaS, ASP 서비스 형태로 제공합니다.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,8 +87,8 @@
                     <a href="#"></a>
                     <a href="#"></a>
                 </div>
-                <button type="button">이전</button>
-                <button type="button">다음</button>
+                <button type="button" class="p_btn prev">이전</button>
+                <button type="button" class="p_btn next">다음</button>
             </div>
             <section class="area1">
                 <div class="inner">
@@ -71,10 +96,13 @@
                         <h2>About<br>Unicorn Ranch</h2>
                         <p>기술중심 정보, 거래 플랫폼 서비스를 제공</p> 
                         <div class="btns">
+                            <a href="">기업소개</a>
+                        </div>
+                        <div class="btns">
                             <a href="">연혁 및 비전</a>
                         </div>
                     </article>
-                    <article>
+                    <article class="a_service">
                         <div class="box techinfo">
                             <div class="box_inner">
                                 <span class="Techinfo_logo"><h3>10Bagger Techinfo Platform</h3></span>
@@ -83,7 +111,9 @@
                                     <h3>10Bagger Techinfo Platform</h3>
                                     <p>상장/비상장 종목에 대한 기업가치분석 정보 제공합니다.</p>
                                 </div>
-                                <a href="" class="btn_link">자세히 보기</a>
+                                <div class="btns">
+                                    <a href="">자세히보기</a>
+                                </div>
                             </div>
                         </div>
                         <div class="box u_trading">
@@ -94,7 +124,9 @@
                                     <h3>10Bagger Techinfo Platform</h3>
                                     <p>상장/비상장 종목에 대한 기업가치분석 정보 제공합니다.</p>
                                 </div>
-                                <a href="" class="btn_link">자세히 보기</a>
+                                <div class="btns">
+                                    <a href="">자세히보기</a>
+                                </div>
                             </div>
                         </div>
                     </article>
