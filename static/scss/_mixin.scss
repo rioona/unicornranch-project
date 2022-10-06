@@ -1,3 +1,38 @@
+@function calcRem($size) {
+  /*Mobile용 믹스인*/
+  $remSize: $size / $font_def;
+  @return #{$remSize}rem;
+}
+
+@function calcPercent($size, $defsize: 375) {
+  /*Mobile용 믹스인*/
+  $remSize: $size / $defsize;
+  @return percentage($remSize);
+}
+@mixin setFont($nm, $fileNm, $weight: 100) {
+  @font-face {
+    font-family: $nm;
+    font-weight: $weight;
+    font-display: block;
+    src: local("※"), url($font_url + $fileNm + ".woff2") format("woff2"),
+      local("※"), url($font_url + $fileNm + ".woff") format("woff");
+  }
+}
+
+@mixin fontfamily($weight: 100) {
+  font-family: $family;
+  font-weight: $weight;
+}
+
+@mixin fontMont() {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+@mixin fontPret() {
+  font-family: "Pretendard";
+  font-weight: 400;
+}
+
 @mixin bgSvg(
   $fc: null,
   $repeat: no-repeat,
@@ -19,27 +54,73 @@
   $bgColor: null
 ) {
   background: $bgColor url($url + $fileNm + $version) $repeat $bgPos;
-  image-rendering: -webkit-optimize-contrast;
   @if $bgSize != null {
     background-size: $bgSize;
   }
 }
+@mixin ellipsis($type: null, $num: 2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @if $type == multi {
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: $num;
+    -webkit-box-orient: vertical;
+  } @else {
+    white-space: nowrap;
+  }
+}
 
-@mixin pc {
-  @media (min-width: $pc) {
+@mixin clear($display: block) {
+  display: $display;
+  clear: both;
+  content: "";
+}
+
+@mixin setCont(
+  $width: auto,
+  $height: auto,
+  $display: null,
+  $position: null,
+  $color: null
+) {
+  content: "";
+  width: $width;
+  height: $height;
+  @if $display != null {
+    display: $display;
+  }
+  @if $position != null {
+    position: $position;
+  }
+  @if $color != null {
+    background-color: $color;
+  }
+}
+
+@mixin blind {
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -2000em;
+}
+
+@mixin mobile {
+  @media (max-width: ($mobile - 1px)) {
     @content;
   }
 }
 
-@mixin tablet{
-  @media (min-width: $tablet){
-  // @media (min-width: $tablet) and (max-width: ($pc - 1)){
+@mixin tablet {
+  // @media (min-width: $mobile+1) and (max-width: $tablet){
+  @media (max-width: ($pc - 1px)) {
     @content;
   }
 }
-@mixin toTablet{
-  // @media (min-width: $tablet){
-  @media (min-width: $tablet) and (max-width: ($pc - 1)){
+@mixin tabletOnly {
+  // @media (min-width: $mobile+1) and (max-width: $tablet){
+  @media (max-width: ($pc - 1px)) and (min-width: $mobile) {
     @content;
   }
 }

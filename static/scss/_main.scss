@@ -1,0 +1,302 @@
+@font-face {
+  src: url("/font/NotoSansKR-Bold.woff");
+  font-family: "NotoSansKR-Bold";
+}
+
+@font-face {
+  src: url("/font/NotoSansKR-Regular.woff");
+  font-family: "NotoSansKR-Regular";
+}
+
+@font-face {
+  src: url("/font/Montserrat-Bold.woff");
+  font-family: "Montserrat-Bold";
+}
+
+@font-face {
+  src: url("/font/Pretendard-Regular.woff");
+  font-family: "Pretendard-Regular";
+}
+
+html, body, div, span, h1, h2, h3{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul{list-style: none;padding: 0;}
+a {text-decoration: none; outline: none}
+button{background: none; border:none; outline: none; margin: 0; padding: 0;}
+
+
+.wrap{width: 100%;}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
+  z-index: 100;
+  font-family: NotoSansKR-Bold;
+  .inner{
+    display: flex;
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    .left, .right{
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+  .left{
+    .logo{
+      width: 225px;
+      height: 26px;
+      display: block;
+      text-indent: -9999px;
+      background-image: url(/img/header_logo.png);
+      margin-right: 100px;
+    }
+    .gnb a{
+      color: #ffffff;
+    }
+  }
+  .right{
+    justify-content: right;
+    .l_icon{
+      width: 20px;
+      height: 20px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg id='아이콘-언어' transform='translate(-1139 -387)'%3E%3Cg id='타원_1' data-name='타원 1' transform='translate(1139 387)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_2' data-name='타원 2' transform='translate(1139 393)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cellipse cx='10' cy='4' rx='10' ry='4' stroke='none'/%3E%3Cellipse cx='10' cy='4' rx='9.5' ry='3.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_3' data-name='타원 3' transform='translate(1145 407) rotate(-90)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cellipse cx='10' cy='4' rx='10' ry='4' stroke='none'/%3E%3Cellipse cx='10' cy='4' rx='9.5' ry='3.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+    .r_icon{
+      width: 8px;
+      height: 4px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='4' viewBox='0 0 8 4'%3E%3Cpath id='다각형_23' data-name='다각형 23' d='M4,0,8,4H0Z' transform='translate(8 4) rotate(-180)' fill='%23fff'/%3E%3C/svg%3E%0A");
+    }
+    .hr_tit{
+      position: relative;
+      font-size: 16px;
+      padding: 0 10px 0 10px;
+      color: #ffffff;
+    }
+    ul{
+      position: absolute;
+      top: 68px;
+      width: 55px;
+      height: 62px;
+      background-color: #016A6E;
+      padding: 10px 0;
+      li{
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        button{
+          color: #ffffff;
+          cursor: pointer;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .gnb{
+    display: flex;
+    a{
+      margin: 0 35px;
+      font-size: 20px;
+      font-weight: 500;
+      display: block;
+    }
+  }
+}
+
+.slideshow-container{
+  width: 100%;
+  height: 100%;
+  display: block;
+  .p_btn{
+    content: "";
+    width: 69px;
+    height: 69px;
+    display: block;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 69px;
+    text-indent: -9999px;
+    top: 50%;
+    left: 50%;
+    z-index: 500;
+  }
+  .prev{
+    opacity: .4;
+    transform: translate(431px,-50%);
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.387' height='8.774'%3E%3Cpath data-name='선 68' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M27.387 1.387h-26'/%3E%3Cpath data-name='선 69' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M10.387 7.387l-9-6'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  }
+  .next{
+    transform:translate(521px,-50%);
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.387' height='8.774'%3E%3Cpath data-name='선 26' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1 1.387h26'/%3E%3Cpath data-name='선 27' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 7.387l9-6'/%3E%3C/svg%3E") no-repeat 50% 50%
+  }
+}
+
+.slideshow-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  .slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    &::before{
+      content:"";
+      width: 100%;
+      height: calc(100% - 100px);
+      display: block;
+      position: absolute;
+      max-width: 1480px;
+      background-image: url(/img/bg_line.png);
+      background-repeat: repeat-y;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    .content{
+      width: 1180px;
+      height: auto;
+      margin: 0 auto;
+      justify-content: center;
+      align-self: center;
+      font-family: Montserrat-Bold;
+      margin-top: -100px;
+      h3{
+        font-size: 25px;
+      }
+      h2{
+        font-size: 80px;
+        font-weight: 800;
+        div:first-child{
+          text-indent: -5%;
+        }
+      }
+      .s_text{
+        line-height: 22px;
+        font-family: Pretendard-Regular;
+        opacity: 0.8;
+      }
+    }
+  }
+  .s1{
+    background-image: url(/img/main.png);
+    background-size: auto 130%;
+    z-index: 30;
+  }
+  .s2{
+    background-image: url(/img/main.png);
+    background-size: auto 130%;
+    z-index: 20;
+  }
+  .s3{
+    background-image: url(/img/main.png);
+    background-size: auto 130%;
+    z-index: 10;
+  }
+}
+
+.area1{
+  display: flex;
+  height: 830px;
+  background-image: url(/img/main2.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  .inner{
+    width: 100%;
+    padding: 75px 150px;
+    align-items: center;
+    .m_info{
+      color: #fff;
+      text-align: center;
+      font-family: Montserrat-Bold;
+      h2{
+        font-size: 40px;
+        font-family: Montserrat-Bold;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 25px;
+      }
+      .btns{
+        margin-top: 36px;
+        margin-bottom: 80px;
+      }
+    }
+    .btns{
+      height: 57px;
+      display: inline-block;
+      position: relative;
+      line-height: 57px;
+      font-size: 16px;
+      font-family: NotoSansKR-Bold;
+      a{
+        min-width: 178px;
+        padding: 0 66px 0 25px;
+        width: 178px;
+        border: 1px solid #9b9b9b;
+        color: #ffffff;
+        position: relative;
+        display: inline-block;
+        &:hover{
+          border: 1px solid #3CC1C6;
+          color: #3CC1C6;
+        }
+      }
+    }
+  }
+  .a_service{
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 auto;
+    .box{
+      height: 350px;
+      width: 580px;
+      .box_inner{
+        padding: 45px;
+        height: 100%;
+        .Techinfo_logo h3{
+          width: 150px;
+          height: 34px;
+          margin-bottom: 30px;
+          text-indent: -9999px;
+          background-image: url(/img/main2_l_1.png);
+        }
+        .text {
+          span{
+            font-family: Montserrat-Bold;
+            font-size: 15px;
+            line-height: 25px;
+          }
+          h3, p{
+            font-size: 30px;
+            font-family: NotoSansKR-Bold;
+            margin-bottom: 27px;
+          }
+          p{font-size: 18px;}
+        }
+      }
+    }
+    .techinfo{
+      background-image: url(/img/main2_l.png);
+    }
+    .u_trading{
+      background-image: url(/img/main2_r.png);
+    }
+  }
+}
+
+
+
