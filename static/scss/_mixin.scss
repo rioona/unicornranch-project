@@ -28,8 +28,24 @@
   font-family: "Montserrat";
   font-weight: 500;
 }
+@mixin fontMontBold() {
+  font-family: "Montserrat-Bold";
+  font-weight: 500;
+}
 @mixin fontPret() {
   font-family: "Pretendard";
+  font-weight: 400;
+}
+@mixin NotoRegular() {
+  font-family: "NotoSansKR-Regular";
+  font-weight: 400;
+}
+@mixin NotoBold() {
+  font-family: "NotoSansKR-Bold";
+  font-weight: 800;
+}
+@mixin PreRegular()  {
+  font-family: "Pretendard-Regular";
   font-weight: 400;
 }
 

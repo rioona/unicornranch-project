@@ -31,16 +31,12 @@ button{background: none; border:none; outline: none; margin: 0; padding: 0;}
 .wrap{width: 100%;}
 
 header{
-  width: 100%;
-  height: 100px;
-  position: fixed;
+  @include setCont(100%, 100px, flex, fixed);
+  @include NotoBold;
   border-bottom: 1px solid hsla(0,0%,100%,.2);
   z-index: 100;
-  font-family: NotoSansKR-Bold;
   .inner{
-    display: flex;
-    width: 1180px;
-    height: 100%;
+    @include setCont(1180px, 100%, flex);
     margin: 0 auto;
     justify-content: space-between;
     .left, .right{
@@ -51,12 +47,10 @@ header{
   }
   .left{
     .logo{
-      width: 225px;
-      height: 26px;
-      display: block;
-      text-indent: -9999px;
-      background-image: url(/img/header_logo.png);
+      @include setCont(225px, 26px, block);
+      @include bgSvg(logo("ffffff"), no-repeat, 0 50%, 100%);
       margin-right: 100px;
+      text-indent: -9999px;
     }
     .gnb a{
       color: #ffffff;
@@ -67,32 +61,29 @@ header{
     .l_icon{
       width: 20px;
       height: 20px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg id='아이콘-언어' transform='translate(-1139 -387)'%3E%3Cg id='타원_1' data-name='타원 1' transform='translate(1139 387)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_2' data-name='타원 2' transform='translate(1139 393)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cellipse cx='10' cy='4' rx='10' ry='4' stroke='none'/%3E%3Cellipse cx='10' cy='4' rx='9.5' ry='3.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_3' data-name='타원 3' transform='translate(1145 407) rotate(-90)' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cellipse cx='10' cy='4' rx='10' ry='4' stroke='none'/%3E%3Cellipse cx='10' cy='4' rx='9.5' ry='3.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+      @include bgSvg(licon("ffffff"), no-repeat, 0 50%, 100%);
     }
     .r_icon{
-      width: 8px;
-      height: 4px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='4' viewBox='0 0 8 4'%3E%3Cpath id='다각형_23' data-name='다각형 23' d='M4,0,8,4H0Z' transform='translate(8 4) rotate(-180)' fill='%23fff'/%3E%3C/svg%3E%0A");
+      @include setCont(8px, 4px);
+      @include bgSvg(ricon("ffffff"), no-repeat, 0 50%, 100%);
     }
     .hr_tit{
       position: relative;
       font-size: 16px;
       padding: 0 10px 0 10px;
-      color: #ffffff;
+      color: $white;
     }
     ul{
-      position: absolute;
+      @include setCont(55px, 62px, block, absolute);
       top: 68px;
-      width: 55px;
-      height: 62px;
-      background-color: #016A6E;
+      background-color: $point1;
       padding: 10px 0;
       li{
         width: 100%;
         text-align: center;
         line-height: 20px;
         button{
-          color: #ffffff;
+          color: $white;
           cursor: pointer;
           font-size: 16px;
         }
@@ -111,15 +102,10 @@ header{
 }
 
 .slideshow-container{
-  width: 100%;
-  height: 100%;
-  display: block;
+  @include setCont(100%, 100%, block);
   .p_btn{
     content: "";
-    width: 69px;
-    height: 69px;
-    display: block;
-    position: absolute;
+    @include setCont(69px, 69px, block, absolute);
     border: 2px solid #fff;
     border-radius: 69px;
     text-indent: -9999px;
@@ -130,31 +116,22 @@ header{
   .prev{
     opacity: .4;
     transform: translate(431px,-50%);
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.387' height='8.774'%3E%3Cpath data-name='선 68' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M27.387 1.387h-26'/%3E%3Cpath data-name='선 69' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M10.387 7.387l-9-6'/%3E%3C/svg%3E") no-repeat 50% 50%;
+    @include bgSvg(prev($white), no-repeat, 50% 50%);
   }
   .next{
     transform:translate(521px,-50%);
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.387' height='8.774'%3E%3Cpath data-name='선 26' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1 1.387h26'/%3E%3Cpath data-name='선 27' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 7.387l9-6'/%3E%3C/svg%3E") no-repeat 50% 50%
-  }
+    @include bgSvg(next($white), no-repeat, 50% 50%);
+    }
 }
 
 .slideshow-wrapper{
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
+  @include setCont(100%, 100vh, flex, relative);
   .slide{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    color: #ffffff;
+    @include setCont(100%, 100%, flex, absolute);
+    color: $white;
     &::before{
       content:"";
-      width: 100%;
-      height: calc(100% - 100px);
-      display: block;
-      position: absolute;
+      @include setCont(100%, calc(100% - 100px), block, absolute);
       max-width: 1480px;
       background-image: url(/img/bg_line.png);
       background-repeat: repeat-y;
@@ -164,12 +141,11 @@ header{
       z-index: 2;
     }
     .content{
-      width: 1180px;
-      height: auto;
+      @include setCont(1180px, auto);
+      @include fontMont;
       margin: 0 auto;
       justify-content: center;
       align-self: center;
-      font-family: Montserrat-Bold;
       margin-top: -100px;
       h3{
         font-size: 25px;
@@ -183,7 +159,7 @@ header{
       }
       .s_text{
         line-height: 22px;
-        font-family: Pretendard-Regular;
+        @include PreRegular;
         opacity: 0.8;
       }
     }
@@ -216,12 +192,12 @@ header{
     padding: 75px 150px;
     align-items: center;
     .m_info{
-      color: #fff;
+      color: $white;
       text-align: center;
-      font-family: Montserrat-Bold;
+      @include fontMontBold;
       h2{
         font-size: 40px;
-        font-family: Montserrat-Bold;
+        @include fontMontBold;
         margin-bottom: 10px;
       }
       p{
@@ -238,18 +214,15 @@ header{
       position: relative;
       line-height: 57px;
       font-size: 16px;
-      font-family: NotoSansKR-Bold;
+      @include fontMontBold;
       a{
-        min-width: 178px;
+        @include setCont(178px, null, inline-block, relative);        min-width: 178px;
         padding: 0 66px 0 25px;
-        width: 178px;
         border: 1px solid #9b9b9b;
-        color: #ffffff;
-        position: relative;
-        display: inline-block;
+        color: $white;
         &:hover{
-          border: 1px solid #3CC1C6;
-          color: #3CC1C6;
+          border: 1px solid $hover;
+          color: $hover;
         }
       }
     }
@@ -259,30 +232,28 @@ header{
     width: 1180px;
     justify-content: space-between;
     text-align: left;
-    color: #ffffff;
+    color: $white;
     margin: 0 auto;
     .box{
-      height: 350px;
-      width: 580px;
+      @include setCont(580px, 350px);
       .box_inner{
         padding: 45px;
         height: 100%;
         .Techinfo_logo h3{
-          width: 150px;
-          height: 34px;
+          @include setCont(150px, 34px);
           margin-bottom: 30px;
           text-indent: -9999px;
           background-image: url(/img/main2_l_1.png);
         }
         .text {
           span{
-            font-family: Montserrat-Bold;
+            @include fontMontBold;
             font-size: 15px;
             line-height: 25px;
           }
           h3, p{
+            @include fontMontBold;
             font-size: 30px;
-            font-family: NotoSansKR-Bold;
             margin-bottom: 27px;
           }
           p{font-size: 18px;}
@@ -298,5 +269,124 @@ header{
   }
 }
 
+.area2{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg,#f3f3f3,#f3f3f3 50%,#fff 0,#fff);
+    .inner{
+      @include setCont(1180px, 695px, flex);
+      article{
+        width: 50%;
+        padding: 80px 0 84px;
+          h2{
+            @include fontMontBold;
+            font-size: 35px;
+            text-align: center;
+            margin-bottom: 40px;
+          }
+      }
+      .notice{
+        padding-right: 30px;
+        li{
+          @include setCont(100%, 104px);
+          margin-bottom: 11px;
+          background-color: #fff;
+            a{
+              @include setCont(100%, 100%, flex, relative);
+              padding: 31px 25px;
+              align-items: center;
+              &:before {
+                @include setCont(19px, 15px, block, absolute);
+                @include bgSvg(arrow("#707070"), no-repeat, 50% 50%);
+                top: 50%;
+                right: 36px;
+                transform: translateY(-50%);
+                transition: all 200ms;
+              }
+              &:hover {
+                &:before {
+                  right: 26px;
+                }
+              }
+              div{
+                font-size: 42px;
+                @include fontMontBold;
+                color: #00A59A;
+                text-align: center;
+                .date{
+                  font-size: 19px;
+                }
+                p{
+                  @include NotoBold;
+                  color: #333333;
+                  font-size: 22px;
+                }
+              }
+              .year{
+                margin-right: 23px;
+              } 
+            }
+        }
+      }
+      .contact{
+        padding-left: 30px;
+        .box2{
+          @include NotoBold;
+          display: flex;
+          text-align: center;
+          justify-content: space-between;
+          color: $hover;
+          font-size: 16px;
+          .box{
+            @include setCont(calc(50% - 10px), 450px, flex, relative);
+            .box_inner{
+              width: 100%;
+              margin-top: 105px;
+              h2{
+                font-size: 30px;
+                font-weight: 800;
+                margin-bottom: 25px;
+              }
+              .t1{
+                p{
+                  line-height: 20px;
+                  letter-spacing: -1px;
+                  margin-bottom: 15px;
+                  span{
+                    @include NotoRegular;
+                  }
+                }
+              }
+              a{
+                @include setCont(110px, auto, inline-block);
+                color: $hover;
+                border: 1px solid #3cc1c6;
+                text-align: center;
+                font-size: 16px;
+                padding: 6px 0;
+                margin-bottom: 30px;
+              }
+            }
+          }
+          .box:first-child{
+            background-image: url(/img/main3_1.png);
+            background-size: 130%;
+          }
+          .box:last-child{
+            background-image: url(/img/main3_2.png);
+            background-size: 130%;
+            h2{
+              margin-bottom: 60px;
+            }
+            p{
+              @include NotoRegular;
+              line-height: 1.2;
+              margin-bottom: 45px;
+            }
+          }
+        }
+      }
+    }
+}
 
 

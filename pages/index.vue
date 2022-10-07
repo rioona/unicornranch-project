@@ -139,42 +139,42 @@
                         <ul class="list">
                             <li>
                                 <a href="" target="_blank">
-                                    <div><span>01</span>2022.01</div>
+                                    <div class="year">01<div class="date">2022.01</div></div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div><span>01</span>2022.01</div>
+                                    <div class="year">01<div class="date">2022.01</div></div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div><span>01</span>2022.01</div>
+                                    <div class="year">01<div class="date">2022.01</div></div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div><span>01</span>2022.01</div>
+                                    <div class="year">01<div class="date">2022.01</div></div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>    
                         </ul>
                     </article>
-                    <article>
+                    <article class="contact">
                         <h2>Partner &amp; Contact us</h2>
                             <div class="box2">
                                 <div class="box">
                                     <div class="box_inner">
                                         <h2>업무제휴 문의</h2>
                                         <div class="t1">
-                                            <p>텐배거상장<br>stock@unicornranch.co.kr</p>
+                                            <p><span>텐배거상장</span><br>stock@unicornranch.co.kr</p>
                                             <a href="">문의하기</a>
                                         </div>
-                                        <div class="t2">
-                                            <p>텐배거비상장<br>unlistedstock@unicornranch.co.kr</p>
+                                        <div class="t1">
+                                            <p><span>텐배거비상장</span><br>unlistedstock@unicornranch.co.kr</p>
                                             <a href="">문의하기</a>
                                         </div>
                                     </div>
