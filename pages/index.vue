@@ -40,6 +40,9 @@
                                 금융소비자에게는 정확한 기술정보제공 및 우량기술기업에 대한 투자의 기회를 제공하며<br>
                                 기업과 사용자 모두에게 선순환 투자 시스템을 조성합니다.
                             </div>
+                            <div class="btns">
+                                <a href="">자세히보기</a>
+                            </div>
                         </div>
                     </div>
                     <div class="slide s2">
@@ -205,9 +208,11 @@
                         <div class="top_r">
                             <div class="top_tit">Family Site</div>
                             <ul>
-                                <li>위즈도메인</li>
+                                <li>텐베거 테크인포 플랫폼</li>
+                                <li>텐베거 트레이딩 플랫폼</li>
+                                <hr>
                                 <li>아이피밸류 파트너스</li>
-                                <li>KTCB</li>
+                                <li>오픈아이피</li>
                             </ul>
                         </div>
                     </div>
@@ -219,7 +224,7 @@
                         </div> 
                         <div class="biz_r">
                             <span>대표전화<strong>02.2088.1271</strong></span> 
-                            <span>펙스<strong>02.2118.0175</strong></span>
+                            <span>팩스<strong>02.2118.0175</strong></span>
                         </div> 
                     </div>
                 </div>
