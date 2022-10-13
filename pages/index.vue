@@ -12,6 +12,7 @@
                     </nav>
                 </div>
                 <div class="right">
+                    <div class="search"></div>
                     <div class="l_icon"></div>
                     <button type="button" class="hr_tit">KR</button>
                     <div class="r_icon"></div>
@@ -86,7 +87,7 @@
                     </div>
                 </div>
                 <div class="pagination">
-                    <a href="#"></a>
+                    <a class="focus" href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
                 </div>
@@ -125,7 +126,7 @@
                                 <div class="text">
                                     <span>SERVICE</span>
                                     <h3>10Bagger Techinfo Platform</h3>
-                                    <p>상장/비상장 종목에 대한 기업가치분석 정보 제공합니다.</p>
+                                    <p>비상장종목 및 가상자산에 대한 거래시스템 서비스 제공</p>
                                 </div>
                                 <div class="btns">
                                     <a href="">자세히보기</a>
@@ -142,25 +143,37 @@
                         <ul class="list">
                             <li>
                                 <a href="" target="_blank">
-                                    <div class="year">01<div class="date">2022.01</div></div>
+                                    <div class="date">
+                                        <div class="day">01</div>
+                                        <div class="year">2022.01</div>
+                                    </div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div class="year">01<div class="date">2022.01</div></div>
+                                    <div class="date">
+                                        <div class="day">01</div>
+                                        <div class="year">2022.01</div>
+                                    </div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div class="year">01<div class="date">2022.01</div></div>
+                                    <div class="date">
+                                        <div class="day">01</div>
+                                        <div class="year">2022.01</div>
+                                    </div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <div class="year">01<div class="date">2022.01</div></div>
+                                    <div class="date">
+                                        <div class="day">01</div>
+                                        <div class="year">2022.01</div>
+                                    </div>
                                     <div><p>유니콘랜치 텐배거 서비스 베타버전 오픈</p></div>
                                 </a>
                             </li>    
@@ -177,7 +190,7 @@
                                             <a href="">문의하기</a>
                                         </div>
                                         <div class="t1">
-                                            <p><span>텐배거비상장</span><br>unlistedstock@unicornranch.co.kr</p>
+                                            <p><span>텐배거비상장</span><br>stock@unicornranch.co.kr</p>
                                             <a href="">문의하기</a>
                                         </div>
                                     </div>
@@ -185,8 +198,10 @@
                                 <div class="box">
                                     <div class="box_inner">
                                         <h2>온라인 문의</h2>
-                                        <p>온라인을 통한 <br>고객문의를 지원합니다.<br>최대한 빠른 서비스로<br>응대합니다.</p>
-                                        <a href="">바로가기</a>
+                                        <div class="t1">
+                                            <p>온라인을 통한 <br>고객문의를 지원합니다.<br>최대한 빠른 서비스로<br>응대합니다.</p>
+                                            <a href="">문의하기</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
