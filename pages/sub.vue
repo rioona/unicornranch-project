@@ -1,14 +1,22 @@
 <template>
-    <div class="wrap">
+    <div class="wrap sub">
         <header>
             <div class="inner">
                 <div class="left">
                     <a href="" class="logo">UnicornRanch</a>
                     <nav class="gnb">
-                        <a href="">회사소개</a>
-                        <a href="">서비스</a>
-                        <a href="">뉴스/공지</a>
-                        <a href="">고객지원</a>
+                        <NuxtLink to="" class="menu">
+                            회사소개
+                        </NuxtLink>
+                        <NuxtLink to="" class="menu">
+                            서비스
+                        </NuxtLink>
+                        <NuxtLink to="" class="menu on">
+                            뉴스/공지
+                        </NuxtLink>
+                        <NuxtLink to="" class="menu">
+                            고객지원
+                        </NuxtLink>
                     </nav>
                 </div>
                 <div class="right">
@@ -32,29 +40,113 @@
             </div>
             <div class="subnev">
                 <div class="inner">
-                    <div class="sn_box"></div>
-                    <div class="sn_box">
-                        <div class="sn_tit">
+                    <NuxtLink to="" class="btn_home">
+                         홈
+                    </NuxtLink>
+                    <div class="slct">
+                        <div class="slct_tit">
                             뉴스/공지
                         </div>
-                        <ul class="slct_cont">
-                            <li>
-                                <NuxtLink to="" target="_blank"></NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="" target="_blank"></NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="" target="_blank"></NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="" target="_blank"></NuxtLink>
-                            </li>
-                        </ul>
                     </div>
-                    <div class="sn_box"></div>
+                    <div class="slct">
+                        <div class="slct_tit">
+                            보도자료
+                        </div>
+                    </div>
                 </div>
             </div>
+            <section class="container">
+                <div class="inner">
+                    <h2>뉴스/공지</h2>
+                    <div class="taps">
+                        <NuxtLink to="" class="tap on">
+                            보도자료
+                        </NuxtLink>
+                        <NuxtLink to="" class="tap">
+                            공지사항
+                        </NuxtLink>
+                        <NuxtLink to="" class="tap">
+                            웹매거진
+                        </NuxtLink>
+                    </div>
+                    <div class="content">
+                        <div class="area">
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <span class="box_t">서울경제</span>
+                                <h3>기술력을 보고 주가를 예측한다? 유니콘랜치 NH투자증권 나무입니다.</h3>
+                                <div class="box_b">
+                                    <span>
+                                        2021. 11. 23
+                                    </span>
+                                    <NuxtLink to="" class="box_btn">
+                                        바로가기
+                                    </NuxtLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <footer>
             <div class="inner">

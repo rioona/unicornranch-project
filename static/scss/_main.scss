@@ -18,84 +18,6 @@
   font-family: "Pretendard-Regular";
 }
 
-.wrap{width: 100%;}
-
-header{
-  @include setCont(100%, 100px, flex, fixed);
-  @include NotoBold;
-  border-bottom: 1px solid hsla(0,0%,100%,.2);
-  z-index: 100;
-  .inner{
-    @include setCont(1180px, 100%, flex);
-    margin: 0 auto;
-    justify-content: space-between;
-    .left, .right{
-      display: flex;
-      align-items: center;
-      height: 100%;
-    }
-  }
-  .left{
-    .logo{
-      @include setCont(225px, 26px, block);
-      @include bgSvg(logo("ffffff"), no-repeat, 0 50%, 100%);
-      margin-right: 100px;
-      text-indent: -9999px;
-    }
-    .gnb a{
-      color: #ffffff;
-    }
-  }
-  .right{
-    justify-content: right;
-    .search{
-      @include setCont(20px, 23px);
-      @include bgSvg(search("ffffff"), no-repeat, 0 50%, 100%);
-      margin-right: 30px;
-    }
-    .l_icon{
-      @include setCont(20px, 20px);
-      @include bgSvg(licon("ffffff"), no-repeat, 0 50%, 100%);
-    }
-    .r_icon{
-      @include setCont(8px, 4px);
-      @include bgSvg(ricon("ffffff"), no-repeat, 0 50%, 100%);
-    }
-    .hr_tit{
-      position: relative;
-      font-size: 16px;
-      padding: 0 10px 0 10px;
-      color: $white;
-    }
-    ul{
-      @include setCont(55px, 62px, block, absolute);
-      visibility:hidden;
-      top: 68px;
-      background-color: $point1;
-      padding: 10px 0;
-      li{
-        width: 100%;
-        text-align: center;
-        line-height: 20px;
-        button{
-          color: $white;
-          cursor: pointer;
-          font-size: 16px;
-        }
-      }
-    }
-  }
-  .gnb{
-    display: flex;
-    a{
-      margin: 0 35px;
-      font-size: 20px;
-      font-weight: 500;
-      display: block;
-    }
-  }
-}
-
 .slideshow-container{
   @include setCont(100%, 100%, block);
   .p_btn{
@@ -456,14 +378,14 @@ header{
             }
           }
           .box:first-child{
-            background-image: url(/img/main3_1.png);
+            background-image: url("/img/main3_1.png");
             background-size: cover;
             &:hover{
               background-size: 130%;
             }
           }
           .box:last-child{
-            background-image: url(/img/main3_2.png);
+            background-image: url("/img/main3_2.png");
             background-size: cover;
             &:hover{
               background-size: 130%;
@@ -481,114 +403,169 @@ header{
     }
 }
 
-footer{
-  @include setCont(100%, 230px);
-  background-color: #202020;
+//sub.vue
+
+.top_visual{
+  @include setCont(100%, 300px, flex);
+  background-image: url("/img/news_image.png");
+  background-size: cover;
+  align-items: center;
   .inner{
-    @include setCont(1180px, 100%, flex, relative);
-    justify-content: space-between;
-    margin: 0 auto;
-    padding:  17px 0 42px 0;
-    .f_left{
-      .logo{
-        @include setCont(225px, 26px, block);
-        @include bgSvg(logo("ffffff"), no-repeat, 0 50%, 100%);
-        text-indent: -9999px;
-        margin-top: 8px;
+    text-align: center;
+    @include fontMont;
+    font-weight: 800;
+    color: $white;
+    h1{
+      font-size: 55px;
+      margin-bottom: 24px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+}
+
+.subnev{
+  @include setCont(100%, 60px, flex);
+  border-bottom: 1px solid #d9d9d9;
+  .inner{
+    @include setCont(null, 100%, flex);
+    align-self: center;
+    .btn_home{
+      @include setCont(60px, 100%, block);
+      @include bgSvg(icoHome("333333"), no-repeat, 50% 50%);
+      @include blind;
+      border-left: 1px solid #d9d9d9;
+    }
+    .slct{
+      @include setCont(262px, 100%, block);
+      padding: 0px 20px;
+      border-left: 1px solid #d9d9d9;
+      cursor: pointer;
+      .slct_tit{
+        @include setCont(auto, 100%, flex, relative);
+        align-items: center;
+        &:after{
+          @include setCont(10px, 5px, block, absolute);
+          @include bgSvg(f_arrow("333333"), no-repeat, 50% 50%, 100%);
+          top: 50%;
+          transform: translateY(-50%);
+          right: 20px;
+        }
       }
     }
-    .f_right{
-      width: 885px;
-      .top{
-        @include setCont(100%, 62px, flex, relative);
+    .slct:last-child{
+      border-right: 1px solid #d9d9d9;
+    }
+  }
+}
+
+.container{
+  margin-bottom: 150px;
+  h2{
+    font-size: 40px;
+    margin: 69px 0;
+    color: #222222;
+  }
+  .taps{
+    text-align: center;
+    margin-bottom: 40px;
+    .tap{
+      display:inline-block;
+      font-size: 30px;
+      font-weight: 800;
+      height: 56px;
+      color: #888888;
+      border-bottom: 5px solid #D8D8D8;
+      &:hover{
+        color: $point1;
+        border-bottom: 5px solid $point1;
+      }
+    }
+    .tap.on{
+      color: $point1;
+      border-bottom: 5px solid $point1;
+    }
+    .tap:nth-child(2){
+      margin: 0 80px;
+    }
+  }
+  .content{
+    .area{
+      display: flex;
+      flex-wrap: wrap;
+      .box{
+        @include setCont(380px, 348px, block);
         justify-content: space-between;
-        border-bottom: 1px solid #707070;
-        .top_l{
-          a{
-            display: inline-block;
-            line-height: 45px;
-            height: 45px;
-            color: $white;
-            font-size: 14px;
-          }
-          a:first-child{
-            margin-right: 45px;
+        align-content: flex-start;
+        margin: 20px 0 0 20px;
+        border: 1px solid #D8D8D8;
+        border-top: 1px solid $point1;;
+        padding: 65px 30px 60px;
+        span.box_t{
+          position: relative;
+          font-size: 20px;
+          color: #666666;
+          &:after{
+            @include setCont(36px, 5px, block, absolute);
+            background-color: $point1;
+            left: 0;
+            bottom: -15px;
           }
         }
-        .top_r{
-          @include setCont(380px, 45px, block, relative);
-          border: 1px solid #444444;
-          color: $white;
-          .top_tit{
-            @include setCont(100%, 100%, flex, relative);
-            padding: 0 20px;
-            align-items: center;
+        h3{
+          height: 70px;
+          @include NotoBold;
+          margin: 41px 0 59px 0;
+          font-size: 25px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow:hidden;
+          text-overflow: ellipsis;
+          white-space:  normal;
+          word-wrap: break-word;
+        }
+        .box_b{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          span{
             font-size: 16px;
-            @include NotoBold;
-            &::before {
-              content: "";
-              @include setCont(10px, 5px, inline, absolute);
-              @include bgSvg(f_arrow("ffffff"), no-repeat, 0 0, 100%);
-              right: 20px;
-            }
+            color: #888888;
           }
-          ul{
-            @include setCont(380px, auto, block, absolute);
-            bottom: 43px;
-            background-color: #202020;
-            border: 1px solid #444444;
-            padding: 19px;
-            color: #D8D8D8;
-            visibility: hidden;
-            li{
-              font-size: 16px;
-              line-height: 35px;
-              @include NotoRegular;
+          .box_btn{
+            @include setCont(145px, 40px, inline-block, relative);
+            background-color: #016A6E;
+            line-height: 40px;
+            transition: all .2s;
+            padding-left: 25px;
+            color: $white;
+            &:after{
+              @include setCont(26px, 6px, block, absolute);
+              @include bgSvg(next("ffffff"), no-repeat, 0, 100%);
+              top: 50%;
+              right: 15px;
+              transform: translateY(-50%);
+              transition: all .2s;
             }
-            hr{
-              border-bottom: 1px solid #707070;
-            }
-            li:nth-child(2){
-              margin-bottom: 20px;
-            }
-            li:nth-child(4){
-              margin-top: 20px;
+            &:hover{
+              background-color: #3CC1C6;
+              &:after{
+                right: 8px;
+              }
             }
           }
         }
       }
-      .biz{
-        padding: 30px 0;
-        display: flex;
-        justify-content: space-between;
-        color: #B8B8B8;
-        @include NotoRegular;
-        .biz_l{
-          font-size: 14px;
-          span{
-            display: block;
-          }
-          span:nth-child(2){
-            margin-bottom: 26px;
-          }
-        }
-        .biz_r{
-          width: 380px;
-          text-align: right;
-          font-size: 18px;
-          color: #666666;
-          strong{
-            margin-left: 17px;
-            color: #B8B8B8;
-          }
-          span:nth-child(2){
-            margin-left: 20px;
-          }
-        }
+      .box:nth-child(3n + 1){
+        margin-left: 0;
       }
     }
   }
 }
+
+
 
 @include tablet {
   header{
